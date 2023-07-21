@@ -1,0 +1,100 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "humans",
+  "chain_id": "humans_1089-1",
+  "pretty_name": "Humans AI",
+  "status": "live",
+  "network_type": "mainnet",
+  "bech32_prefix": "humans",
+  "daemon_name": "humansd",
+  "node_home": "$HOME/.humans",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "aheart"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/humansdotai/humans",
+    "recommended_version": "v1.0.0",
+    "compatible_versions": [
+      "v1.0.0"
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/humansdotai/mainnets/main/mainnet/1/genesis_1089-1.json"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "recommended_version": "v1.0.0",
+        "compatible_versions": [
+          "v1.0.0"
+        ]
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://humans.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-1.humans.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://humans.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://humans-rpc.staketab.org",
+        "provider": "staketab"
+      },
+      {
+        "address": "https://rpc.humans.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://humans-mainnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://humans.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-1.humans.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://humans.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://humans-rest.staketab.org",
+        "provider": "staketab"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://humans.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorer.humans.zone",
+      "url": "https://explorer.humans.zone/",
+      "tx_page": "https://explorer.humans.zone/humans-testnet/tx/${txHash}"
+    }
+  ]
+}
