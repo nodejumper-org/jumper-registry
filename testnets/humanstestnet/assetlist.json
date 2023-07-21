@@ -6,12 +6,8 @@
         "description": "The native staking and governance token of the testnet version of Humans AI.",
         "denom_units": [
           {
-            "denom": "uheart",
-            "exponent": 0
-          },
-          {
-            "denom": "heart",
-            "exponent": 6
+            "denom": "aheart",
+            "exponent": 18
           }
         ],
         "base": "uheart",

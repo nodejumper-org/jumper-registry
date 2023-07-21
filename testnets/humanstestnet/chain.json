@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "humanstestnet",
-  "chain_id": "testnet-1",
+  "chain_id": "humans_3000-31",
   "pretty_name": "Humans AI Testnet",
   "status": "live",
   "network_type": "testnet",
@@ -15,8 +15,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "uheart",
-        "fixed_min_gas_price": 0
+        "denom": "aheart"
       }
     ]
   },
@@ -44,12 +43,36 @@
       {
         "address": "https://humans-testnet.nodejumper.io",
         "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://humans-testnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://rpc-t.humans.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://rpc-1.humans.nodes.guru",
+        "provider": "nodesguru"
       }
     ],
     "rest": [
       {
         "address": "https://humans-testnet.nodejumper.io:1317",
         "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://humans-testnet-api.itrocket.net",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://api-t.humans.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://api-1.humans.nodes.guru",
+        "provider": "nodesguru"
       }
     ],
     "grpc": [
