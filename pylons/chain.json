@@ -1,0 +1,75 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "pylons",
+  "chain_id": "pylons-mainnet-1",
+  "pretty_name": "Pylons",
+  "status": "live",
+  "network_type": "mainnet",
+  "bech32_prefix": "pylo",
+  "daemon_name": "pylonsd",
+  "node_home": "$HOME/.pylons",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ubedrock"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/Pylons-tech/pylons",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/Pylons-tech/pylons/main/networks/pylons-mainnet-1/genesis.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://pylons.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-1.pylons.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://rpc.pylons.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://rpc.pylons.mcbnode.online",
+        "provider": "mcbnode"
+      },
+    ],
+    "rest": [
+      {
+        "address": "https://pylons.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-1.pylons.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://pylons.api.kjnodes.com",
+        "provider": "kjnodes"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://pylons.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "nodesguru",
+      "url": "https://pylons.explorers.guru/",
+      "tx_page": "https://pylons.explorers.guru/transaction/${txHash}"
+    }
+  ]
+}
