@@ -1,0 +1,71 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "paloma",
+  "chain_id": "messenger",
+  "pretty_name": "Paloma",
+  "status": "live",
+  "network_type": "mainnet",
+  "bech32_prefix": "humans",
+  "daemon_name": "paloma",
+  "node_home": "$HOME/.paloma",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ugrain"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/palomachain/paloma",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/palomachain/mainnet/master/messenger/genesis.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://paloma.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-1.paloma.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://paloma.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://paloma.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-1.paloma.nodes.guru",
+        "provider": "nodesguru"
+      },
+      {
+        "address": "https://paloma.api.kjnodes.com",
+        "provider": "kjnodes"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://paloma.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "nodesguru",
+      "url": "https://paloma.explorers.guru/",
+      "tx_page": "https://paloma.explorers.guru/transaction/${txHash}"
+    }
+  ]
+}
