@@ -43,6 +43,10 @@
         "address": "https://rpc.pylons.mcbnode.online",
         "provider": "mcbnode"
       },
+      {
+        "address": "https://pylons.rpc.m.anode.team",
+        "provider": "anode"
+      }
     ],
     "rest": [
       {
@@ -56,6 +60,10 @@
       {
         "address": "https://pylons.api.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://pylons.api.m.anode.team/",
+        "provider": "anode"
       }
     ],
     "grpc": [
