@@ -13,10 +13,7 @@
         "base": "ualthea",
         "name": "ALTHEA",
         "display": "althea",
-        "symbol": "ALTHEA",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/nodejumper-org/jumper-registry/master/testnets/altheatestnet/images/althea.webp"
-        }
+        "symbol": "ALTHEA"
       }
     ]
   }

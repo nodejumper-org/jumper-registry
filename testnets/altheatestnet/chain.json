@@ -64,7 +64,7 @@
         "provider": "nodeist"
       },
       {
-        "address": "https://althea-t.grpc.bccnodes.com:10090\n",
+        "address": "https://althea-t.grpc.bccnodes.com:10090",
         "provider": "bccnodes"
       }
     ]
