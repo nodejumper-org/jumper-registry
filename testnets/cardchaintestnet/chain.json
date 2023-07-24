@@ -1,0 +1,92 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "cardchaintestnet",
+  "chain_id": "Testnet3",
+  "pretty_name": "CrowdControl",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "cc",
+  "daemon_name": "Cardchaind",
+  "node_home": "$HOME/.Cardchain",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ubpf"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/DecentralCardGame/Cardchain",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/DecentralCardGame/Testnet/main/genesis.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cardchain-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://cardchain-testnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://rpc-t.crowd.nodestake.top",
+        "provider": "nodestake"
+      },
+
+      {
+        "address": "https://rpc-cardchain.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://cardchain-testnet-rpc.itrocket.net:443",
+        "provider": "itrocket"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://cardchain-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-cardchain.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://cardchain-testnet-api.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://api-t.crowd.nodestake.top",
+        "provider": "nodestake"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://cardchain-testnet.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://grpc-cardchain.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://cardchain-testnet-grpc.itrocket.net:31090",
+        "provider": "itrocket"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "exploremepro",
+      "url": "https://crowdcontrol.exploreme.pro",
+      "tx_page": "https://crowdcontrol.exploreme.pro/transaction/${txHash}"
+    }
+  ]
+}
