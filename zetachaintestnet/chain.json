@@ -1,0 +1,115 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "zetachaintestnet",
+  "chain_id": "athens_7001-1",
+  "pretty_name": "ZetaChain",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "zeta",
+  "daemon_name": "zetacored",
+  "node_home": "$HOME/.zetacored",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "azeta"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/zeta-chain/zetachain",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/zeta-chain/network-athens3/main/network_files/config/genesis.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://zetachain-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-t.zeta.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-testnet-rpc.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://zetachain-testnet.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://zetachain-testnet-rpc.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
+        "address": "http://15.235.160.207:26657",
+        "provider": "blockpi"
+      },
+      {
+        "address": "http://47.253.40.34:26657",
+        "provider": "StakingCabin"
+      },
+      {
+        "address": "http://78.46.45.174:26657",
+        "provider": "noders"
+      },
+      {
+        "address": "http://141.94.214.137:26657",
+        "provider": "RockX"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://zetachain-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-t.zeta.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-testnet-api.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://zetachain-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://zetachain-testnet-api.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
+        "address": "http://15.235.160.207:1317",
+        "provider": "blockpi"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://zetachain-testnet.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://grpc-t.zeta.nodestake.top:443",
+        "provider": "nodestake"
+      },
+      {
+        "address": "zetachain-testnet.grpc.kjnodes.com:16190",
+        "provider": "kjnodes"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "exploremepro",
+      "url": "https://zetachain.exploreme.pro",
+      "tx_page": "https://zetachain.exploreme.pro/transaction/${txHash}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "../assetlist.schema.json",
+    "chain_name": "ojodevnet",
+    "assets": [
+      {
+        "description": "The native staking and governance token of Ojo",
+        "denom_units": [
+          {
+            "denom": "uojo",
+            "exponent": 6
+          }
+        ],
+        "base": "uojo",
+        "name": "OJO",
+        "display": "ojo",
+        "symbol": "OJO"
+      }
+    ]
+  }

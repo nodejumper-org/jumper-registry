@@ -1,0 +1,92 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "humanstestnet",
+  "chain_id": "humans_3000-31",
+  "pretty_name": "Humans AI Testnet",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "humans",
+  "daemon_name": "humansd",
+  "node_home": "$HOME/.humans",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "aheart"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/humansdotai/humans",
+    "recommended_version": "v1.0.0",
+    "compatible_versions": [
+      "v1.0.0"
+    ],
+    "genesis": {
+      "genesis_url": "https://rpc-testnet.humans.zone/genesis"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "recommended_version": "v1.0.0",
+        "compatible_versions": [
+          "v1.0.0"
+        ]
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://humans-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://humans-testnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://rpc-t.humans.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://rpc-1.humans.nodes.guru",
+        "provider": "nodesguru"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://humans-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://humans-testnet-api.itrocket.net",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://api-t.humans.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://api-1.humans.nodes.guru",
+        "provider": "nodesguru"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://humans-testnet.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorer.humans.zone",
+      "url": "https://explorer.humans.zone/",
+      "tx_page": "https://explorer.humans.zone/humans-testnet/tx/${txHash}"
+    }
+  ]
+}

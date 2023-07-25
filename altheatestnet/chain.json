@@ -1,0 +1,79 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "altheatestnet",
+  "chain_id": "althea_417834-3",
+  "pretty_name": "Althea",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "althea",
+  "daemon_name": "althea",
+  "node_home": "$HOME/.althea",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ualthea"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/althea-net/althea-L1",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/testnet-4-genesis-collected.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://althea-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-althea.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://althea-t.api.bccnodes.com/",
+        "provider": "bccnodes"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://althea-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-althea.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://althea-t.rpc.bccnodes.com",
+        "provider": "bccnodes"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://althea-testnet.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://grpc-althea.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://althea-t.grpc.bccnodes.com:10090",
+        "provider": "bccnodes"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "nodesguru",
+      "url": "https://althea.explorers.guru/",
+      "tx_page": "https://althea.explorers.guru/transaction/${txHash}"
+    }
+  ]
+}

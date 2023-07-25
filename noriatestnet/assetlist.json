@@ -1,0 +1,19 @@
+{
+    "$schema": "../assetlist.schema.json",
+    "chain_name": "noriatestnet",
+    "assets": [
+      {
+        "description": "The native staking and governance token of Noria",
+        "denom_units": [
+          {
+            "denom": "unoria",
+            "exponent": 6
+          }
+        ],
+        "base": "unoria",
+        "name": "NORIA",
+        "display": "noria",
+        "symbol": "NORIA"
+      }
+    ]
+  }
