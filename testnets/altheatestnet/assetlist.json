@@ -6,11 +6,11 @@
         "description": "The native staking and governance token of Althea",
         "denom_units": [
           {
-            "denom": "ualthea",
+            "denom": "aalthea",
             "exponent": 18
           }
         ],
-        "base": "ualthea",
+        "base": "aalthea",
         "name": "ALTHEA",
         "display": "althea",
         "symbol": "ALTHEA"
