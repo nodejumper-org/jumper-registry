@@ -89,15 +89,76 @@
       {
         "address": "rpc.testnet.babylonchain.io:26657",
         "provider": "Babylon foundation"
+      },
+      {
+        "address": "https://babylon-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://rpc-babylon.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://rpc-t.babylon.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://babylon-t.rpc.bccnodes.com",
+        "provider": "bccnodes"
+      },
+      {
+        "address": "https://babylon-testnet.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://babylon-testnet-rpc.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
+        "address": "http://babylon.rpc.nodersteam.com:16657",
+        "provider": "nodersteam"
       }
     ],
     "rest": [
       {
         "address": "rpc.testnet.babylonchain.io:1317",
         "provider": "Babylon foundation"
+      },
+      {
+        "address": "https://babylon-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://api-babylon.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://api-t.babylon.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://babylon-t.api.bccnodes.com",
+        "provider": "bccnodes"
+      },
+      {
+        "address": "https://babylon-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://babylon-testnet-api.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
+        "address": "http://babylon.api.nodersteam.com:16657",
+        "provider": "nodersteam"
       }
     ],
-    "grpc": []
+    "grpc": [
+      {
+        "address": "https://grpc-babylon.nodeist.net",
+        "provider": "nodeist"
+      }
+    ]
   },
   "explorers": [
     {
