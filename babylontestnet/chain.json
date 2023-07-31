@@ -87,10 +87,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "rpc.testnet.babylonchain.io:26657",
-        "provider": "Babylon foundation"
-      },
-      {
         "address": "https://babylon-testnet.nodejumper.io",
         "provider": "NODEJUMPER"
       },
@@ -120,10 +116,6 @@
       }
     ],
     "rest": [
-      {
-        "address": "rpc.testnet.babylonchain.io:1317",
-        "provider": "Babylon foundation"
-      },
       {
         "address": "https://babylon-testnet.nodejumper.io:1317",
         "provider": "NODEJUMPER"
