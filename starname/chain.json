@@ -7,6 +7,8 @@
   "pretty_name": "Starname",
   "chain_id": "iov-mainnet-ibc",
   "bech32_prefix": "star",
+  "daemon_name": "starnamed",
+  "node_home": "$HOME/.starnamed",
   "slip44": 234,
   "alternative_slip44s": [
     118
