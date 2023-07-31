@@ -57,11 +57,27 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://sei-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://sei-testnet-rpc.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
         "address": "https://sei-testnet-2-rpc.brocha.in",
         "provider": "Brochain"
       }
     ],
     "rest": [
+      {
+        "address": "https://sei-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://sei-testnet-api.polkachu.com",
+        "provider": "polkachu"
+      },
       {
         "address": "https://sei-testnet-2-rest.brocha.in",
         "provider": "Brochain"
