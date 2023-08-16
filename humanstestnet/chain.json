@@ -7,7 +7,7 @@
   "network_type": "testnet",
   "bech32_prefix": "humans",
   "daemon_name": "humansd",
-  "node_home": "$HOME/.humans",
+  "node_home": "$HOME/.humansd",
   "key_algos": [
     "secp256k1"
   ],
