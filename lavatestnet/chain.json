@@ -5,7 +5,7 @@
     "network_type": "testnet",
     "website": "https://www.lavanet.xyz/",
     "pretty_name": "Lava",
-    "chain_id": "lava-testnet-1",
+    "chain_id": "lava-testnet-2",
     "bech32_prefix": "lava@",
     "daemon_name": "lavad",
     "node_home": "$HOME/.lava",
@@ -56,7 +56,7 @@
       ],
       "genesis": {
         "name": "v0.3.0",
-        "genesis_url": "https://raw.githubusercontent.com/lavanet/lava-config/main/testnet-1/genesis_json/genesis.json"
+        "genesis_url": "https://raw.githubusercontent.com/lavanet/lava-config/main/testnet-2/genesis_json/genesis.json"
       },
       "versions": [
         {
@@ -177,14 +177,62 @@
     "apis": {
       "rpc": [
         {
+          "address": "https://lava-testnet.nodejumper.io:443",
+          "provider": "NODEJUMPER"
+        },
+        {
           "address": "https://public-rpc.lavanet.xyz/",
           "provider": "Lava"
+        },
+        {
+          "address": "https://lava-testnet-rpc.polkachu.com/",
+          "provider": "polkachu"
+        },
+        {
+          "address": "https://lava.rpc.kjnodes.com",
+          "provider": "kjnodes"
+        },
+        {
+          "address": "https://lava-testnet-rpc.itrocket.net:443",
+          "provider": "itrocket"
+        },
+        {
+          "address": "https://rpc-t.lava.nodestake.top",
+          "provider": "nodestake"
+        },
+        {
+          "address": "https://lava-t.rpc.bccnodes.com",
+          "provider": "bccnodes"
         }
       ],
       "rest": [
         {
+          "address": "https://lava-testnet.nodejumper.io:1317",
+          "provider": "NODEJUMPER"
+        },
+        {
           "address": "https://public-rpc.lavanet.xyz/rest/",
           "provider": "Lava"
+        },
+        {
+          "address": "https://lava-testnet-api.polkachu.com/",
+          "provider": "polkachu"
+        },
+        {
+          "address": "https://lava.api.kjnodes.com",
+          "provider": "kjnodes"
+        },
+        {
+          "address": "https://lava-testnet-api.itrocket.net:443",
+          "provider": "itrocket"
+        },
+        {
+          "address": "https://api-t.lava.nodestake.top",
+          "provider": "nodestake"
+        },
+        {
+          "address": "https://lava-t.api.bccnodes.com",
+          "provider": "bccnodes"
         }
       ]
     },
