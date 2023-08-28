@@ -308,21 +308,25 @@
       {
         "address": "stargaze-grpc.publicnode.com:443",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "stargaze-grpc.stakerhouse.com:443",
+        "provider": "StakerHouse"
       }
     ]
   },
   "explorers": [
     {
-      "kind": "EZ Staking Tools",
-      "url": "https://ezstaking.tools/stargaze",
-      "tx_page": "https://ezstaking.tools/stargaze/txs/${txHash}",
-      "account_page": "https://ezstaking.tools/stargaze/account/${accountAddress}"
+      "kind": "EZ Staking",
+      "url": "https://app.ezstaking.io/stargaze",
+      "tx_page": "https://app.ezstaking.io/stargaze/txs/${txHash}",
+      "account_page": "https://app.ezstaking.io/stargaze/account/${accountAddress}"
     },
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/stargaze/",
-      "tx_page": "https://www.mintscan.io/stargaze/txs/${txHash}",
-      "account_page": "https://www.mintscan.io/stargaze/account/${accountAddress}"
+      "tx_page": "https://www.mintscan.io/stargaze/transactions/${txHash}",
+      "account_page": "https://www.mintscan.io/stargaze/accounts/${accountAddress}"
     },
     {
       "kind": "ping.pub",
