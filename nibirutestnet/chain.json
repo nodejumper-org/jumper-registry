@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "nibirutestnet",
-  "chain_id": "nibiru-itn-1",
+  "chain_id": "nibiru-itn-2",
   "pretty_name": "Nibiru Chain",
   "status": "live",
   "network_type": "testnet",
@@ -28,23 +28,19 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://nibiru-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc-t.nibiru.nodestake.top",
         "provider": "nodestake"
       },
       {
         "address": "https://nibiru-testnet.rpc.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://rpc-nibiru.nodeist.net",
+        "provider": "nodeist"
       }
     ],
     "rest": [
-      {
-        "address": "https://nibiru-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://api-t.nibiru.nodestake.top",
         "provider": "nodestake"
@@ -52,13 +48,13 @@
       {
         "address": "https://nibiru-testnet.api.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://api-nibiru.nodeist.net",
+        "provider": "nodeist"
       }
     ],
     "grpc": [
-      {
-        "address": "https://nibiru-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-t.nibiru.nodestake.top",
         "provider": "nodestake"
@@ -73,7 +69,7 @@
     {
       "kind": "nibirufi",
       "url": "https://explorer.nibiru.fi",
-      "tx_page": "https://explorer.nibiru.fi/nibiru-itn-1/tx/${txHash}"
+      "tx_page": "https://explorer.nibiru.fi/nibiru-itn-2/tx/${txHash}"
     }
   ]
 }
