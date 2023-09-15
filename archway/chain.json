@@ -162,6 +162,11 @@
         "id": "a477bfcef79f283d82e531ec1a6717677c8caf59",
         "address": "peer-archway.mms.team:56108",
         "provider": "MMS"
+      },
+      {
+        "id": "2b96f460b643b42bd80eef693975f07ed111a023",
+        "address": "95.216.42.88:31656",
+        "provider": "StakeTown"
       }
     ]
   },
@@ -212,6 +217,10 @@
         "provider": "Stake-Take"
       },
       {
+        "address": "https://archway-rpc.w3coins.io",
+        "provider": "w3coins"
+      },
+      {
         "address": "https://archway-mainnet-rpc.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
       },
@@ -232,14 +241,22 @@
         "provider": "MZONDER"
       },
       {
-        "address": "https://archway.lgns.net/rpc",
+        "address": "https://rpc.archway.lgns.net",
         "provider": "Luganodes"
+      },
+      {
+        "address": "https://archway-rpc.stake-town.com:443",
+        "provider": "StakeTown"
       }
     ],
     "rest": [
       {
         "address": "https://api.mainnet.archway.io",
         "provider": "Archway Foundation"
+      },
+      {
+        "address": "https://archway-api.w3coins.io",
+        "provider": "w3coins"
       },
       {
         "address": "https://m-archway.api.utsa.tech",
@@ -302,8 +319,12 @@
         "provider": "MZONDER"
       },
       {
-        "address": "https://archway.lgns.net/rest",
+        "address": "https://rest.archway.lgns.net",
         "provider": "Luganodes"
+      },
+      {
+        "address": "https://archway-api.stake-town.com:443",
+        "provider": "StakeTown"
       }
     ],
     "grpc": [
@@ -318,6 +339,10 @@
       {
         "address": "grpc-1.archway.nodes.guru:10690",
         "provider": "Nodes.Guru"
+      },
+      {
+        "address": "archway-grpc.w3coins.io:11590",
+        "provider": "w3coins"
       },
       {
         "address": "archway.grpc.kjnodes.com:15690",
@@ -352,8 +377,12 @@
         "provider": "MZONDER"
       },
       {
-        "address": "https://archway.lgns.net/grpc",
+        "address": "grpc.archway.lgns.net:443",
         "provider": "Luganodes"
+      },
+      {
+        "address": "archway-grpc.stake-town.com:443",
+        "provider": "StakeTown"
       }
     ]
   },
