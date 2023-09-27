@@ -34,6 +34,21 @@
       {
         "address": "https://althea-t.api.bccnodes.com/",
         "provider": "bccnodes"
+      },
+      {
+        "address": "https://althea-testnet.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://althea-testnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://althea.rpc.skynodejs.net"
+      },
+      {
+        "address": "https://rpc-althea-testnet.mms.team"
+      },
+      {
+        "address": "https://althea-rpc.siriusnodes.uk"
       }
     ],
     "rest": [
@@ -44,6 +59,18 @@
       {
         "address": "https://althea-t.rpc.bccnodes.com",
         "provider": "bccnodes"
+      },
+      {
+        "address": "https://althea-testnet.api.kjnodes.com"
+      },
+      {
+        "address": "https://althea-testnet-api.itrocket.net:443"
+      },
+      {
+        "address": "https://althea.api.skynodejs.net"
+      },
+      {
+        "address": "https://api-althea-testnet.mms.team"
       }
     ],
     "grpc": [
