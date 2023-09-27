@@ -107,10 +107,6 @@
         "provider": "polkachu"
       },
       {
-        "address": "http://babylon.rpc.nodersteam.com:16657",
-        "provider": "nodersteam"
-      },
-      {
         "address": "http://65.109.232.224:31657"
       },
       {
@@ -143,10 +139,6 @@
       {
         "address": "https://babylon-testnet-api.polkachu.com",
         "provider": "polkachu"
-      },
-      {
-        "address": "http://babylon.api.nodersteam.com:16657",
-        "provider": "nodersteam"
       }
     ],
     "grpc": [
