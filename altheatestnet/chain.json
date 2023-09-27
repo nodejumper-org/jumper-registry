@@ -28,10 +28,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://althea-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc-althea.nodeist.net",
         "provider": "nodeist"
       },
@@ -42,10 +38,6 @@
     ],
     "rest": [
       {
-        "address": "https://althea-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://api-althea.nodeist.net",
         "provider": "nodeist"
       },
@@ -55,10 +47,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://althea-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-althea.nodeist.net",
         "provider": "nodeist"

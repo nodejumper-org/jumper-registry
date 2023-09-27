@@ -28,10 +28,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://andromeda-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc.galileo-3.andromeda.aviaone.com",
         "provider": "aviaone"
       },
@@ -50,10 +46,6 @@
     ],
     "rest": [
       {
-        "address": "https://andromeda-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://api.galileo-3.andromeda.aviaone.com",
         "provider": "aviaone"
       },
@@ -71,10 +63,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://andromeda-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-andromeda.nodeist.net",
         "provider": "nodeist"

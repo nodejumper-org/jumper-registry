@@ -78,10 +78,6 @@
         "provider": "Nodeist"
       },
       {
-        "address": "https://empower-testnet.nodejumper.io:443",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://empower-testnet-rpc.itrocket.net:443",
         "provider": "ITRocket"
       },
@@ -108,10 +104,6 @@
         "provider": "Nodeist"
       },
       {
-        "address": "https://empower-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://empower-testnet-api.itrocket.net:443",
         "provider": "ITRocket"
       },
@@ -132,10 +124,6 @@
       {
         "address": "grpc-t.empower.nodestake.top:9090",
         "provider": "NodeStake"
-      },
-      {
-        "address": "empower-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
       },
       {
         "address": "empower-testnet-grpc.itrocket.net:16090",

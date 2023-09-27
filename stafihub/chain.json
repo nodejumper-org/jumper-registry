@@ -132,10 +132,6 @@
       {
         "address": "https://rpc.stafihub.nodestake.top:443",
         "provider": "NodeStake"
-      },
-      {
-        "address": "https://stafihub.nodejumper.io",
-        "provider": "NODEJUMPER"
       }
     ],
     "rest": [
@@ -150,10 +146,6 @@
       {
         "address": "https://api.stafihub.nodestake.top",
         "provider": "NodeStake"
-      },
-      {
-        "address": "https://stafihub.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
       }
     ],
     "grpc": [
@@ -168,10 +160,6 @@
       {
         "address": "grpc.stafihub.nodestake.top:443",
         "provider": "NodeStake"
-      },
-      {
-        "address": "stafihub.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
       }
     ]
   },

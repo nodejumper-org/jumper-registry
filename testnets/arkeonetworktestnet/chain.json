@@ -40,10 +40,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://arkeonetwork-testnet.nodejumper.io:26657",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://test-arkeo-rpc.kynraze.com",
         "provider": "kynraze"
       },
@@ -62,10 +58,6 @@
     ],
     "rest": [
       {
-        "address": "https://arkeonetwork-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://test-arkeo-api.kynraze.com",
         "provider": "kynraze"
       },
@@ -83,10 +75,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://arkeonetwork-testnet.nodejumper.io:9090/",
-        "provider": "NODEJUMPER"
-      }
     ]
   },
   "explorers": [

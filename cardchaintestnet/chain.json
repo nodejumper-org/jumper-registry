@@ -28,10 +28,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://cardchain-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://cardchain-testnet-rpc.itrocket.net",
         "provider": "itrocket"
       },
@@ -51,10 +47,6 @@
     ],
     "rest": [
       {
-        "address": "https://cardchain-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://api-cardchain.nodeist.net",
         "provider": "nodeist"
       },
@@ -68,10 +60,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://cardchain-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-cardchain.nodeist.net",
         "provider": "nodeist"

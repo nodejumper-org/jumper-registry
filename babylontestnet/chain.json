@@ -87,10 +87,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://babylon-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc-babylon.nodeist.net",
         "provider": "nodeist"
       },
@@ -116,10 +112,6 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://babylon-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://api-babylon.nodeist.net",
         "provider": "nodeist"

@@ -84,10 +84,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://zetachain-testnet.nodejumper.io:9090",
-        "provider": "NodeJumper"
-      }
     ]
   },
   "explorers": [

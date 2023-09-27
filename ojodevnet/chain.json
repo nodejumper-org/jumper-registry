@@ -28,10 +28,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://ojo-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc-ojo.nodeist.net",
         "provider": "nodeist"
       },
@@ -62,10 +58,6 @@
     ],
     "rest": [
       {
-        "address": "https://ojo-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://api-ojo.nodeist.net",
         "provider": "nodeist"
       },
@@ -91,10 +83,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://ojo-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-ojo.nodeist.net",
         "provider": "nodeist"

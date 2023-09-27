@@ -41,10 +41,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://humans-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://humans-testnet-rpc.itrocket.net",
         "provider": "itrocket"
       },
@@ -59,10 +55,6 @@
     ],
     "rest": [
       {
-        "address": "https://humans-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://humans-testnet-api.itrocket.net",
         "provider": "itrocket"
       },
@@ -76,10 +68,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://humans-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      }
     ]
   },
   "explorers": [

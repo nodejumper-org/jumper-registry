@@ -28,10 +28,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://dymension-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://rpc-dymension.nodeist.net",
         "provider": "nodeist"
       },
@@ -54,10 +50,6 @@
     ],
     "rest": [
       {
-        "address": "https://dymension-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://api-dymension.nodeist.net",
         "provider": "nodeist"
       },
@@ -79,10 +71,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://dymension-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      },
       {
         "address": "https://grpc-dymension.nodeist.net",
         "provider": "nodeist"

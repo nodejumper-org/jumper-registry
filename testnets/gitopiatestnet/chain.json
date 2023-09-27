@@ -47,31 +47,14 @@
       }
     ],
     "persistent_peers": [
-      {
-        "id": "6146658ffe2d148524a9fdcc3d701440053442bf",
-        "address": "gitopia-testnet.nodejumper.io:30656",
-        "provider": "NODEJUMPER"
-      }
     ]
   },
   "apis": {
     "rpc": [
-      {
-        "address": "https://gitopia-testnet.nodejumper.io",
-        "provider": "NODEJUMPER"
-      }
     ],
     "rest": [
-      {
-        "address": "https://gitopia-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      }
     ],
     "grpc": [
-      {
-        "address": "https://gitopia-testnet.nodejumper.io:9090",
-        "provider": "NODEJUMPER"
-      }
     ]
   },
   "explorers": [
