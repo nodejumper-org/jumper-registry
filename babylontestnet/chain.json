@@ -87,7 +87,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-babylon.nodeist.net",
+        "address": "https://rpc-testnet-babylon.nodeist.net",
         "provider": "nodeist"
       },
       {
@@ -109,11 +109,23 @@
       {
         "address": "http://babylon.rpc.nodersteam.com:16657",
         "provider": "nodersteam"
+      },
+      {
+        "address": "http://65.109.232.224:31657"
+      },
+      {
+        "address": "http://88.99.29.50:26701"
+      },
+      {
+        "address": "http://161.97.157.109:31657"
+      },
+      {
+        "address": "http://3.18.176.128:26657"
       }
     ],
     "rest": [
       {
-        "address": "https://api-babylon.nodeist.net",
+        "address": "https://api-testnet-babylon.nodeist.net",
         "provider": "nodeist"
       },
       {
