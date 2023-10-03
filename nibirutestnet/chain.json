@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "nibirutestnet",
-  "chain_id": "nibiru-itn-2",
+  "chain_id": "nibiru-itn-3",
   "pretty_name": "Nibiru Chain",
   "status": "live",
   "network_type": "testnet",
