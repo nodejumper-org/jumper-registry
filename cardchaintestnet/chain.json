@@ -1,13 +1,13 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "Testnet3",
+  "chain_id": "cardtestnet-4",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "cc",
-  "daemon_name": "Cardchaind",
-  "node_home": "$HOME/.Cardchain",
+  "daemon_name": "cardchaind",
+  "node_home": "$HOME/.cardchain",
   "key_algos": [
     "secp256k1"
   ],
@@ -22,7 +22,7 @@
   "codebase": {
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
     "genesis": {
-      "genesis_url": "https://raw.githubusercontent.com/DecentralCardGame/Testnet/main/genesis.json"
+      "genesis_url": "http://45.136.28.158:3000/genesis.json"
     }
   },
   "apis": {
