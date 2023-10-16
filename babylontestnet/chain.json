@@ -91,14 +91,6 @@
         "provider": "nodeist"
       },
       {
-        "address": "https://rpc-t.babylon.nodestake.top",
-        "provider": "nodestake"
-      },
-      {
-        "address": "https://babylon-t.rpc.bccnodes.com",
-        "provider": "bccnodes"
-      },
-      {
         "address": "https://babylon-testnet.rpc.kjnodes.com",
         "provider": "kjnodes"
       },
@@ -107,16 +99,8 @@
         "provider": "polkachu"
       },
       {
-        "address": "http://65.109.232.224:31657"
-      },
-      {
-        "address": "http://88.99.29.50:26701"
-      },
-      {
-        "address": "http://161.97.157.109:31657"
-      },
-      {
-        "address": "http://3.18.176.128:26657"
+        "address": "https://t-babylon.rpc.utsa.tech/",
+        "provider": "lesnikutsa"
       }
     ],
     "rest": [
@@ -125,20 +109,16 @@
         "provider": "nodeist"
       },
       {
-        "address": "https://api-t.babylon.nodestake.top",
-        "provider": "nodestake"
-      },
-      {
-        "address": "https://babylon-t.api.bccnodes.com",
-        "provider": "bccnodes"
-      },
-      {
         "address": "https://babylon-testnet.api.kjnodes.com",
         "provider": "kjnodes"
       },
       {
         "address": "https://babylon-testnet-api.polkachu.com",
         "provider": "polkachu"
+      },
+      {
+        "address": "https://t-babylon.api.utsa.tech",
+        "provider": "lesnikutsa"
       }
     ],
     "grpc": [
