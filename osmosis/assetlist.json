@@ -106,8 +106,8 @@
       "display": "stibcx",
       "symbol": "stIBCX",
       "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg"
       },
       "images": [
         {
@@ -158,7 +158,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+      }
     },
     {
       "denom_units": [
@@ -202,7 +206,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+      }
     },
     {
       "denom_units": [
@@ -246,7 +254,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+      }
     },
     {
       "denom_units": [
@@ -290,7 +302,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      }
     },
     {
       "denom_units": [
@@ -334,7 +350,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+      }
     },
     {
       "denom_units": [
@@ -377,7 +397,10 @@
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+      }
     },
     {
       "denom_units": [
@@ -420,7 +443,10 @@
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+      }
     },
     {
       "description": "ERIS liquid staked OSMO",
@@ -487,7 +513,10 @@
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
         }
-      ]
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+      }
     },
     {
       "description": "Membrane's CDP-style stablecoin called CDT",
@@ -536,6 +565,225 @@
       "images": [
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg"
+        }
+      ]
+    },
+    {
+      "description": "DYDX on Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+          "exponent": 0,
+          "aliases": [
+            "adydx"
+          ]
+        },
+        {
+          "denom": "dydx",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+      "name": "DYDX",
+      "display": "dydx",
+      "symbol": "DYDX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "dydx",
+            "base_denom": "adydx",
+            "channel_id": "channel-3"
+          },
+          "chain": {
+            "channel_id": "channel-6787",
+            "path": "transfer/channel-6787"
+          }
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+      }
+    },
+    {
+      "description": "TIA on Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+          "exponent": 0,
+          "aliases": [
+            "utia"
+          ]
+        },
+        {
+          "denom": "tia",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+      "name": "Celestia TIA",
+      "display": "tia",
+      "symbol": "TIA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "celestia",
+            "base_denom": "utia",
+            "channel_id": "channel-2"
+          },
+          "chain": {
+            "channel_id": "channel-6994",
+            "path": "transfer/channel-6994"
+          }
+        }
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "celestia",
+            "base_denom": "utia"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+      }
+    },
+    {
+      "description": "Margined Power Token sqOSMO",
+      "denom_units": [
+        {
+          "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
+          "exponent": 0
+        },
+        {
+          "denom": "sqosmo",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
+      "name": "OSMO Squared",
+      "display": "sqosmo",
+      "symbol": "sqOSMO",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+        }
+      ]
+    },
+    {
+      "description": "NOIS on Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+          "exponent": 0,
+          "aliases": [
+            "unois"
+          ]
+        },
+        {
+          "denom": "nois",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+      "name": "Nois NOIS",
+      "display": "nois",
+      "symbol": "NOIS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "nois",
+            "base_denom": "unois",
+            "channel_id": "channel-37"
+          },
+          "chain": {
+            "channel_id": "channel-8277",
+            "path": "transfer/channel-8277"
+          }
+        }
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "nois",
+            "base_denom": "unois"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+      }
+    },
+    {
+      "description": "Margined Power Token sqBTC",
+      "denom_units": [
+        {
+          "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc",
+          "exponent": 0
+        },
+        {
+          "denom": "sqbtc",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc",
+      "name": "BTC Squared",
+      "display": "sqbtc",
+      "symbol": "sqBTC",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+        }
+      ]
+    },
+    {
+      "description": "Margined Power Token sqATOM",
+      "denom_units": [
+        {
+          "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom",
+          "exponent": 0
+        },
+        {
+          "denom": "sqatom",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom",
+      "name": "ATOM Squared",
+      "display": "sqatom",
+      "symbol": "sqATOM",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
         }
       ]
     }

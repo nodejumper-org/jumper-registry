@@ -3,7 +3,7 @@
   "chain_name": "omniflixhub",
   "status": "live",
   "network_type": "mainnet",
-  "website": "https://omniflix.co/home",
+  "website": "https://omniflix.network/",
   "pretty_name": "OmniFlix",
   "chain_id": "omniflixhub-1",
   "daemon_name": "omniflixhubd",
@@ -82,6 +82,7 @@
       }
     ]
   },
+  "description": "Decentralized media and network layer for Creators & Sovereign Communities powered by NFTs and related distribution protocols.",
   "peers": {
     "seeds": [
       {
@@ -182,7 +183,7 @@
         "provider": "MZONDER"
       },
       {
-        "address": "hhttps://rpc.omniflix.stakeup.tech:443",
+        "address": "https://rpc.omniflix.stakeup.tech:443",
         "provider": "StakeUp"
       }
     ],
@@ -233,7 +234,7 @@
       },
       {
         "address": "http://omniflix.api.staking-explorer.com",
-        "provider": "50% cashback 💰🔙 staking-explorer.com"
+        "provider": "Cashback staking 💰🔙"
       },
       {
         "address": "https://api.omniflix.stakeup.tech",
