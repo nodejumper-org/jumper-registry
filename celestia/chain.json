@@ -9,13 +9,15 @@
   "bech32_prefix": "celestia",
   "daemon_name": "celestia-appd",
   "node_home": "$HOME/.celestia-app",
-  "key_algos": [ "secp256k1" ],
+  "key_algos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
       {
         "denom": "utia",
-        "fixed_min_gas_price": 0,
+        "fixed_min_gas_price": 0.002,
         "low_gas_price": 0.1,
         "average_gas_price": 0.2,
         "high_gas_price": 0.4
@@ -32,7 +34,9 @@
   "codebase": {
     "git_repo": "https://github.com/celestiaorg/celestia-app",
     "recommended_version": "v1.3.0",
-    "compatible_versions": [ "v1.3.0" ],
+    "compatible_versions": [
+      "v1.3.0"
+    ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/celestiaorg/networks/master/celestia/genesis.json"
     },
@@ -40,9 +44,15 @@
       {
         "name": "v1.3.0",
         "recommended_version": "v1.3.0",
-        "compatible_versions": [ "v1.3.0" ]
+        "compatible_versions": [
+          "v1.3.0"
+        ]
       }
     ]
+  },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
   },
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
   "peers": {
@@ -108,6 +118,11 @@
         "id": "6de4ce5baa9d2bed33c0c53b9518b907cfaab33b",
         "address": "65.108.128.201:11656",
         "provider": "Polkachu"
+      },
+      {
+        "id": "a26091f9c247c1e68410a4e8b107a715a0e886f6",
+        "address": "65.108.226.26:29656",
+        "provider": "[NODERS]TEAM"
       }
     ]
   },
@@ -146,6 +161,10 @@
         "provider": "Cosmos Spaces"
       },
       {
+        "address": "http://celestia.rpc.nodersteam.com:29657",
+        "provider": "[NODERS]TEAM"
+      },
+      {
         "address": "https://celestia-rpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
       },
@@ -164,6 +183,10 @@
       {
         "address": "https://rpc-celestia.mzonder.com",
         "provider": "MZONDER"
+      },
+      {
+        "address": "https://celestia-rpc.enigma-validator.com",
+        "provider": "Enigma"
       }
     ],
     "rest": [
@@ -180,6 +203,10 @@
         "provider": "Newmetric"
       },
       {
+        "address": "http://celestia.rpc.nodersteam.com:1617",
+        "provider": "[NODERS]TEAM"
+      },
+      {
         "address": "https://api.lunaroasis.net",
         "provider": "Lunar Oasis"
       },
@@ -194,7 +221,7 @@
       {
         "address": "https://api-celestia-01.stakeflow.io",
         "provider": "Stakeflow"
-      }, 
+      },
       {
         "address": "https://api-celestia.cosmos-spaces.cloud",
         "provider": "Cosmos Spaces"
@@ -214,6 +241,10 @@
       {
         "address": "https://api-celestia.mzonder.com",
         "provider": "MZONDER"
+      },
+      {
+        "address": "https://celestia-lcd.enigma-validator.com",
+        "provider": "Enigma"
       }
     ],
     "grpc": [
@@ -228,6 +259,10 @@
       {
         "address": "https://celestia-grpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "celestia.grpc.nodersteam.com:9690",
+        "provider": "[NODERS]TEAM"
       },
       {
         "address": "grpc-celestia-01.stakeflow.io:15002",
@@ -277,6 +312,12 @@
       "url": "https://explorer.tcnetwork.io/celestia",
       "tx_page": "https://explorer.tcnetwork.io/celestia/transaction/${txHash}",
       "account_page": "https://explorer.tcnetwork.io/celestia/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
     }
   ]
 }

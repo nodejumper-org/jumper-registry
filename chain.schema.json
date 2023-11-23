@@ -218,7 +218,8 @@
               "type": "string",
               "enum": [
                 "tendermint",
-                "cometbft"
+                "cometbft",
+                "sei-tendermint"
               ]
             },
             "version": {
@@ -324,7 +325,8 @@
                     "type": "string",
                     "enum": [
                       "tendermint",
-                      "cometbft"
+                      "cometbft",
+                      "sei-tendermint"
                     ]
                   },
                   "version": {
@@ -454,7 +456,7 @@
     },
     "description": {
       "type": "string",
-      "maxLength": 999
+      "maxLength": 1999
     },
     "peers": {
       "type": "object",
