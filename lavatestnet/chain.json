@@ -146,6 +146,10 @@
       {
         "address": "https://lava-t.rpc.bccnodes.com",
         "provider": "bccnodes"
+      },
+      {
+        "address": "http://lava.rpc.t.stavr.tech:198",
+        "provider": "🔥STAVR🔥"
       }
     ],
     "rest": [
@@ -172,6 +176,10 @@
       {
         "address": "https://lava-t.api.bccnodes.com",
         "provider": "bccnodes"
+      },
+      {
+        "address": "https://lava.api.t.stavr.tech",
+        "provider": "🔥STAVR🔥"
       }
     ]
   },
@@ -181,6 +189,12 @@
       "url": "https://lava.explorers.guru/",
       "tx_page": "https://lava.explorers.guru//transaction/${txHash}",
       "account_page": "https://lava.explorers.guru//account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Lava-Testnet",
+      "tx_page": "https://explorer.stavr.tech/Lava-Testnet/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/Lava-Testnet/account/${accountAddress}"
     }
   ],
   "keywords": [
