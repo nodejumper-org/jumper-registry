@@ -28,42 +28,25 @@
   "apis": {
     "rpc": [
       {
+        "address": "http://crowd.rpc.t.stavr.tech:21207",
+        "provider": "stavr"
+      },
+      {
         "address": "https://cardchain-testnet-rpc.itrocket.net",
-        "provider": "itrocket"
-      },
-      {
-        "address": "https://rpc-t.crowd.nodestake.top",
-        "provider": "nodestake"
-      },
-
-      {
-        "address": "https://rpc-cardchain.nodeist.net",
-        "provider": "nodeist"
-      },
-      {
-        "address": "https://cardchain-testnet-rpc.itrocket.net:443",
         "provider": "itrocket"
       }
     ],
     "rest": [
       {
-        "address": "https://api-cardchain.nodeist.net",
-        "provider": "nodeist"
+        "address": "https://cc.api.t.stavr.tech",
+        "provider": "stavr"
       },
       {
         "address": "https://cardchain-testnet-api.itrocket.net:443",
         "provider": "itrocket"
-      },
-      {
-        "address": "https://api-t.crowd.nodestake.top",
-        "provider": "nodestake"
       }
     ],
     "grpc": [
-      {
-        "address": "https://grpc-cardchain.nodeist.net",
-        "provider": "nodeist"
-      },
       {
         "address": "https://cardchain-testnet-grpc.itrocket.net:31090",
         "provider": "itrocket"
