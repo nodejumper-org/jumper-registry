@@ -5,7 +5,7 @@
   "website": "https://www.babylonchain.io",
   "network_type": "testnet",
   "pretty_name": "Babylon Testnet",
-  "chain_id": "bbn-test2",
+  "chain_id": "bbn-test-2",
   "bech32_prefix": "bbn",
   "daemon_name": "babylond",
   "node_home": "$HOME/.babylond",
