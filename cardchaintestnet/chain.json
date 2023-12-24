@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "cardtestnet-6",
+  "chain_id": "cardtestnet-7",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
