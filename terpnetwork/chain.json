@@ -110,11 +110,13 @@
     "fee_tokens": [
       {
         "denom": "uterp",
-        "fixed_min_gas_price": 0.005
+        "fixed_min_gas_price": 0.005,
+        "low_gas_price": 0.005
       },
       {
         "denom": "uthiol",
-        "fixed_min_gas_price": 0.5
+        "fixed_min_gas_price": 0.5,
+        "low_gas_price": 0.5
       }
     ]
   },

@@ -15,7 +15,8 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "ubedrock"
+        "denom": "ubedrock",
+        "low_gas_price": 0.0025
       }
     ]
   },

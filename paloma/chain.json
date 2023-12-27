@@ -15,7 +15,8 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "ugrain"
+        "denom": "ugrain",
+        "low_gas_price": 0.01
       }
     ]
   },
