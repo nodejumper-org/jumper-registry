@@ -22,9 +22,67 @@
   },
   "codebase": {
     "git_repo": "https://github.com/Pylons-tech/pylons",
+    "recommended_version": "v1.1.4",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/Pylons-tech/pylons/main/networks/pylons-mainnet-1/genesis.json"
     }
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "dcd20401417eabeec46297be26c93e2e0b3f029d",
+        "address": "5.161.229.9:26656"
+      },
+      {
+        "id": "e9e64412c3d43de4f2e5f7a3e9289b4190e4ed78",
+        "address": "88.198.32.17:33656"
+      },
+      {
+        "id": "030e6a01aef8913bcee33b957e9204986203bc81",
+        "address": "135.125.4.73:46656"
+      },
+      {
+        "id": "62efd4f06d3890f658a622b598426d745fa3af86",
+        "address": "5.9.147.22:26606"
+      },
+      {
+        "id": "af4cc3ce89e51b9d99c46496daec60e2cdf2143b",
+        "address": "65.108.126.49:27656"
+      },
+      {
+        "id": "0496369603c974b14c612f4bdaf63c671340a108",
+        "address": "109.205.182.224:37656"
+      },
+      {
+        "id": "5eb57ba49c53dd6269e5afa9062265b0227886e5",
+        "address": "144.76.45.59:26156"
+      },
+      {
+        "id": "e55c36e7ce120599701b14532c864bec57d4477b",
+        "address": "161.97.132.66:26656"
+      },
+      {
+        "id": "85e236a129337efe946c6a68ee72a6da87825bc5",
+        "address": "65.109.92.240:20256"
+      },
+      {
+        "id": "73a9b52cab5e2132c8b685918b6daa4a658477cc",
+        "address": "65.109.71.35:28656"
+      },
+      {
+        "id": "d0769a0e7fa1fc86baa0b2b9e9c6d9f7ba2dd2b6",
+        "address": "46.4.23.108:36656"
+      },
+      {
+        "id": "1da398816b997170d5241f7d536a99cbbd8096b7",
+        "address": "65.109.58.237:26336"
+      },
+      {
+        "id": "6479298ba1f33724e911252974723b07f1ebcdd3",
+        "address": "51.79.30.100:26656"
+      }
+    ]
   },
   "apis": {
     "rpc": [

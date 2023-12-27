@@ -33,7 +33,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/UptickNetwork/uptick",
-    "recommended_version": "v0.2.4",
+    "recommended_version": "v0.2.11",
     "compatible_versions": [
       "v0.2.4"
     ],
