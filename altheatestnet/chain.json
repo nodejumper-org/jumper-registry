@@ -15,15 +15,37 @@
   "fees": {
     "fee_tokens": [
       {
+        "low_gas_price": 0.01,
         "denom": "ualthea"
       }
     ]
   },
   "codebase": {
     "git_repo": "https://github.com/althea-net/althea-L1",
+    "recommended_version": "v0.5.5",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/testnet-4-genesis-collected.json"
     }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "df949a46ae6529ae1e09b034b49716468d5cc7e9",
+        "address": "testnet-seeds.stakerhouse.com:10056",
+        "provider": "stakershouse"
+      },
+      {
+        "id": "d1d43cc7c7aef715957289fd96a114ecaa7ba756",
+        "address": "testnet-seeds.nodex.one:21110",
+        "provider": "nodex"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "bc47f3e8f9134a812462e793d8767ef7334c0119",
+        "address": "chainripper-2.althea.net:23296"
+      }
+    ]
   },
   "apis": {
     "rpc": [

@@ -15,15 +15,33 @@
   "fees": {
     "fee_tokens": [
       {
+        "low_gas_price": 0.01,
         "denom": "udym"
       }
     ]
   },
   "codebase": {
     "git_repo": "https://github.com/dymensionxyz/dymension",
+    "recommended_version": "v2.0.0-alpha.7",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/dymensionxyz/testnets/main/dymension-hub/froopyland/genesis.json"
     }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com"
+      },
+      {
+        "id": "92308bad858b8886e102009bbb45994d57af44e7",
+        "address": "rpc-t.dymension.nodestake.top:666"
+      },
+      {
+        "id": "284313184f63d9f06b218a67a0e2de126b64258d",
+        "address": "seeds.silknodes.io:26157"
+      }
+    ]
   },
   "apis": {
     "rpc": [

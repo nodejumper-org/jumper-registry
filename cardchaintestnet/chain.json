@@ -15,15 +15,39 @@
   "fees": {
     "fee_tokens": [
       {
+        "low_gas_price": 0.01,
         "denom": "ubpf"
       }
     ]
   },
   "codebase": {
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
+    "recommended_version": "v0.12.0",
     "genesis": {
       "genesis_url": "http://45.136.28.158:3000/genesis.json"
     }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "947aa14a9e6722df948d46b9e3ff24dd72920257@",
+        "address": "cardchain-testnet.itrocket.net:443"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "6a41c6269637733220857a021c8454fa2204987e",
+        "address": "202.61.225.157:26656"
+      },
+      {
+        "id": "99dcfbba34316285fceea8feb0b644c4dc67c53b",
+        "address": "cardchain-testnet-peer.itrocket.net:443"
+      },
+      {
+        "id": "d9c2f63b5981ab58ebfa5815810ce47cbf7703a1",
+        "address": "51.222.44.116:31656"
+      }
+    ]
   },
   "apis": {
     "rpc": [

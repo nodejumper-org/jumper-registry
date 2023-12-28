@@ -25,6 +25,14 @@
       "genesis_url": "https://raw.githubusercontent.com/zeta-chain/network-athens3/main/network_files/config/genesis.json"
     }
   },
+  "peers": {
+    "seeds": [
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "zetachain-testnet.rpc.kjnodes.com:16059"
+      }
+    ]
+  },
   "apis": {
     "rpc": [
       {

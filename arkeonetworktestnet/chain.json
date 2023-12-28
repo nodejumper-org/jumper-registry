@@ -15,12 +15,14 @@
   "fees": {
     "fee_tokens": [
       {
+        "low_gas_price": 0.01,
         "denom": "uarkeo"
       }
     ]
   },
   "codebase": {
-    "git_repo": "https://github.com/arkeonetwork/arkeo"
+    "git_repo": "https://github.com/arkeonetwork/arkeo",
+    "recommended_version": "ab05b124336ace257baa2cac07f7d1bfeed9ac02"
   },
   "peers": {
     "seeds": [

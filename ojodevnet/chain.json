@@ -15,15 +15,25 @@
   "fees": {
     "fee_tokens": [
       {
+        "low_gas_price": 0.01,
         "denom": "uojo"
       }
     ]
   },
   "codebase": {
     "git_repo": "https://github.com/ojo-network/ojo",
+    "recommended_version": "v0.1.2",
     "genesis": {
       "genesis_url": "https://rpc.devnet-n0.ojo-devnet.node.ojo.network/genesis"
     }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "7186f24ace7f4f2606f56f750c2684d387dc39ac",
+        "address": "ojo-testnet-seed.itrocket.net:12656"
+      }
+    ]
   },
   "apis": {
     "rpc": [
