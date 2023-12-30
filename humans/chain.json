@@ -35,7 +35,7 @@
     ]
   },
   "codebase": {
-    "git_repo": "https://github.com/humansdotai/",
+    "git_repo": "https://github.com/humansdotai/humans",
     "recommended_version": "v1.0.0",
     "compatible_versions": [
       "v1.0.0"
