@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chain_name": "zetachaintestnet",
   "chain_id": "athens_7001-1",
   "pretty_name": "ZetaChain",
@@ -9,19 +9,32 @@
   "daemon_name": "zetacored",
   "node_home": "$HOME/.zetacored",
   "key_algos": [
-    "secp256k1"
+    "ethsecp256k1"
   ],
-  "slip44": 118,
+  "extra_codecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
   "fees": {
     "fee_tokens": [
+      {
+        "denom": "azeta",
+        "low_gas_price": 20000000000,
+        "average_gas_price": 25000000000,
+        "high_gas_price": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
       {
         "denom": "azeta"
       }
     ]
   },
   "codebase": {
-    "git_repo": "https://github.com/zeta-chain/zetachain",
-    "recommended_version": "v11.0.0",
+    "git_repo": "https://github.com/zeta-chain/node",
+    "recommended_version": "v11.0.4",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/zeta-chain/network-athens3/main/network_files/config/genesis.json"
     }
@@ -31,6 +44,18 @@
       {
         "id": "3f472746f46493309650e5a033076689996c8881",
         "address": "zetachain-testnet.rpc.kjnodes.com:16059"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "d5519e378247dfb61dfe90652d1fe3e2b3005a5b",
+        "address": "65.109.68.190:16056",
+        "provider": ""
+      },
+      {
+        "id": "f96cf94d5eabaf554c9294e731b3994b4c532f3a",
+        "address": "46.4.5.45:22556",
+        "provider": "Polkachu"
       }
     ]
   },
@@ -53,8 +78,8 @@
         "provider": "polkachu"
       },
       {
-        "address": "http://15.235.160.207:26657",
-        "provider": "blockpi"
+        "address": "https://zetachain-athens.blockpi.network/rpc/v1/public",
+        "provider": "BlockPI"
       },
       {
         "address": "http://47.253.40.34:26657",
@@ -87,8 +112,8 @@
         "provider": "polkachu"
       },
       {
-        "address": "http://15.235.160.207:1317",
-        "provider": "blockpi"
+        "address": "https://zetachain-athens.blockpi.network/lcd/v1/public",
+        "provider": "BlockPI"
       }
     ],
     "grpc": [
@@ -107,6 +132,16 @@
       "kind": "exploremepro",
       "url": "https://zetachain.exploreme.pro",
       "tx_page": "https://zetachain.exploreme.pro/transaction/${txHash}"
+    },
+    {
+      "kind": "ZetaScan",
+      "url": "https://explorer.zetachain.com/",
+      "tx_page": "https://explorer.zetachain.com/cc/tx/${txHash}"
+    },
+    {
+      "kind": "BlockScout",
+      "url": "https://zetachain-athens-3.blockscout.com/",
+      "tx_page": "https://zetachain-athens-3.blockscout.com/tx/${txHash}"
     }
   ]
 }
