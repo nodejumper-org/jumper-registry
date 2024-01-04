@@ -6,7 +6,7 @@
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "cc",
-  "daemon_name": "cardchaind",
+  "daemon_name": "Cardchaind",
   "node_home": "$HOME/.Cardchain",
   "key_algos": [
     "secp256k1"
