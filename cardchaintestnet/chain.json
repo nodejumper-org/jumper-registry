@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "cardtestnet-7",
+  "chain_id": "cardtestnet-8",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
@@ -22,7 +22,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
-    "recommended_version": "v0.12.0",
+    "recommended_version": "v0.13.0",
     "genesis": {
       "genesis_url": "http://45.136.28.158:3000/genesis.json"
     }
@@ -36,7 +36,7 @@
     ],
     "persistent_peers": [
       {
-        "id": "6a41c6269637733220857a021c8454fa2204987e",
+        "id": "58bb9f1dcde0408fe4c3e7f8c6ccb7f8e410ca9c",
         "address": "202.61.225.157:26656"
       },
       {
