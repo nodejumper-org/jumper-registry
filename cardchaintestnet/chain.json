@@ -30,7 +30,7 @@
   "peers": {
     "seeds": [
       {
-        "id": "947aa14a9e6722df948d46b9e3ff24dd72920257@",
+        "id": "947aa14a9e6722df948d46b9e3ff24dd72920257",
         "address": "cardchain-testnet.itrocket.net:443"
       }
     ],
