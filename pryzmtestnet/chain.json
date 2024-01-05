@@ -20,6 +20,11 @@
         "low_gas_price": 0.015,
         "average_gas_price": 0.025,
         "high_gas_price": 0.04
+      },
+      {
+        "denom": "factory/pryzm15k9s9p0ar0cx27nayrgk6vmhyec3lj7vkry7rx/uusdsim",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.01
       }
     ]
   },
