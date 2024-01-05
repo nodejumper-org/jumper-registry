@@ -67,9 +67,23 @@
         "id": "ff17ca4f46230306412ff5c0f5e85439ee5136f0",
         "address": "testnet-seed.pryzm.zone:26656",
         "provider": "PRYZM"
+      },
+      {
+        "id": "fbfd48af73cd1f6de7f9102a0086ac63f46fb911",
+        "address": "pryzm-testnet-seed.itrocket.net:41656",
+        "provider": "itrocket"
       }
     ],
-    "persistent_peers": []
+    "persistent_peers": [
+      {
+        "id": "cdcd86ca01858275d0e78ee66b82109ee06df454",
+        "address": "65.108.72.253:40656"
+      },
+      {
+        "id": "cddf23604f62d0b7a6b0bb19418a9e8625d04f2a",
+        "address": "207.244.246.204:41656"
+      }
+    ]
   },
   "apis": {
     "rpc": [
