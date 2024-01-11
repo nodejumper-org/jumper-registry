@@ -36,7 +36,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/archway-network/archway",
-    "recommended_version": "v4.0.2",
+    "recommended_version": "v4.0.3",
     "compatible_versions": [
       "v4.0.1",
       "v4.0.2"
