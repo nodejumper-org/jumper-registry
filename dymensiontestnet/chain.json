@@ -22,7 +22,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/dymensionxyz/dymension",
-    "recommended_version": "v2.0.0-alpha.7",
+    "recommended_version": "v2.0.0-alpha.8",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/dymensionxyz/testnets/main/dymension-hub/froopyland/genesis.json"
     }
