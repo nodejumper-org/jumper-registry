@@ -1,0 +1,88 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "artelatestnet",
+  "chain_id": "artela_11822-1",
+  "pretty_name": "Artela",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "art",
+  "daemon_name": "artelad",
+  "node_home": "$HOME/.artelad",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "low_gas_price": 0.02,
+        "denom": "uart"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/artela-network/artela",
+    "recommended_version": "v0.4.7-rc4",
+    "genesis": {
+      "genesis_url": "https://docs.artela.network/assets/files/genesis-314f4b0294712c1bc6c3f4213fa76465.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "bec6934fcddbac139bdecce19f81510cb5e02949",
+        "address": "47.254.24.106:26656"
+      },
+      {
+        "id": "32d0e4aec8d8a8e33273337e1821f2fe2309539a",
+        "address": "47.88.58.36:26656"
+      },
+      {
+        "id": "1bf5b73f1771ea84f9974b9f0015186f1daa4266",
+        "address": "47.251.14.47:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet-artela.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://rpc-t.artela.nodestake.org",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://artela-testnet.rpc.nodex.one",
+        "provider": "nodex"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-testnet-artela.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://api-t.artela.nodestake.org",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://artela-testnet.api.nodex.one",
+        "provider": "nodex"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://artela-testnet.grpc.nodex.one",
+        "provider": "nodex"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "pingpub",
+      "url": "https://explorer.nodex.one/artela"
+    }
+  ]
+}

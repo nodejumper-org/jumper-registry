@@ -1,0 +1,19 @@
+{
+    "$schema": "../assetlist.schema.json",
+    "chain_name": "artelatestnet",
+    "assets": [
+      {
+        "description": "The native staking and governance token of Artela",
+        "denom_units": [
+          {
+            "denom": "uart",
+            "exponent": 18
+          }
+        ],
+        "base": "uart",
+        "name": "ART",
+        "display": "art",
+        "symbol": "ART"
+      }
+    ]
+  }
