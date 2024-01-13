@@ -12,7 +12,7 @@
   "slip44": 118,
   "codebase": {
     "git_repo": "https://github.com/OmniFlix/omniflixhub",
-    "recommended_version": "v0.12.1",
+    "recommended_version": "v2.0.0",
     "compatible_versions": [
       "v0.12.1"
     ],
