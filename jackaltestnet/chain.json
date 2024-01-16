@@ -75,6 +75,10 @@
       {
         "address": "https://jackal-testnet.rpc.kjnodes.com",
         "provider": "KjNodes"
+      },
+      {
+        "address": "https://jackal-testnet-rpc.brocha.in",
+        "provider": "BrochaIn"
       }
     ],
     "rest": [
@@ -89,6 +93,10 @@
       {
         "address": "https://jackal-testnet.api.kjnodes.com",
         "provider": "KjNodes"
+      },
+      {
+        "address": "https://jackal-testnet-rest.brocha.in",
+        "provider": "BrochaIn"
       }
     ],
     "grpc": [
