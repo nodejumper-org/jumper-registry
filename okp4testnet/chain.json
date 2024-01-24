@@ -111,6 +111,14 @@
       {
         "address": "https://okp4-testnet-rpc.polkachu.com",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://okp4-testnet.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://rpc-t.okp4.nodestake.top",
+        "provider": "NodeStake"
       }
     ],
     "rest": [
@@ -121,6 +129,14 @@
       {
         "address": "https://okp4-testnet-api.polkachu.com/",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://okp4-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://api-t.okp4.nodestake.top",
+        "provider": "NodeStake"
       }
     ],
     "grpc": [
