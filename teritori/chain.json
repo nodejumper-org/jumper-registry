@@ -29,9 +29,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/TERITORI/teritori-chain",
-    "recommended_version": "v1.4.0",
+    "recommended_version": "v2.0.6",
     "compatible_versions": [
-      "v1.4.0"
+      "v2.0.6"
     ],
     "genesis": {
       "genesis_url": "https://github.com/TERITORI/teritori-chain/raw/mainnet/mainnet/teritori-1/genesis.json"
