@@ -24,7 +24,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/JackalLabs/canine-chain",
-    "recommended_version": "v3.1.1",
+    "recommended_version": "v3.1.2",
     "compatible_versions": [
       "v1.2.2-alpha.1"
     ],
