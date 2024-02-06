@@ -33,7 +33,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/BitCannaGlobal/bcna",
-    "recommended_version": "v3.0.0",
+    "recommended_version": "v3.0.1",
     "compatible_versions": [
       "v3.0.0"
     ],
