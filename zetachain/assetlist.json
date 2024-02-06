@@ -13,7 +13,8 @@
         "base": "azeta",
         "name": "ZETA",
         "display": "zeta",
-        "symbol": "ZETA"
+        "symbol": "ZETA",
+        "coingecko_id": "zetachain"
       }
     ]
   }
