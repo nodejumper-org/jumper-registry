@@ -9,6 +9,7 @@
   "bech32_prefix": "dym",
   "slip44": 60,
   "daemon_name": "dymd",
+  "node_home": "$HOME/.dymension",
   "fees": {
     "fee_tokens": [
       {
