@@ -1,0 +1,90 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "zetachain",
+  "chain_id": "zetachain_7000-1",
+  "pretty_name": "ZetaChain",
+  "status": "live",
+  "network_type": "mainnet",
+  "bech32_prefix": "zeta",
+  "daemon_name": "zetacored",
+  "node_home": "$HOME/.zetacored",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "extra_codecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "azeta",
+        "low_gas_price": 20000000000,
+        "average_gas_price": 25000000000,
+        "high_gas_price": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "azeta"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/zeta-chain/node",
+    "recommended_version": "v12.2.4",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/zeta-chain/network-mainnet/main/network_files/config/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "1d41d344d3370d2ba54332de4967baa5cbd70a06",
+        "address": "rpc.zetachain.nodestake.org:666"
+      },
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "seeds.polkachu.com:22556"
+      }
+    ],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.zeta.nodestake.org",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-rpc.polkachu.com/",
+        "provider": "polkachu"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.zeta.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-api.polkachu.com",
+        "provider": "polkachu"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.zeta.nodestake.top:443",
+        "provider": "nodestake"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "exploremepro",
+      "url": "https://zetachain.exploreme.pro",
+      "tx_page": "https://zetachain.exploreme.pro/transaction/${txHash}"
+    }
+  ]
+}
