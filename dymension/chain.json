@@ -39,5 +39,87 @@
   ],
   "codebase": {
     "git_repo": "https://github.com/dymensionxyz/dymension"
-  }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "45bffa41836302b06310af67f012500cc0d1da31",
+        "address": "rpc.dymension.nodestake.org:666",
+        "provider": "NodeStake"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "dymension-mainnet-seed.autostake.com:27086",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:20556",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "792be7c7645f0547b786e89cd6ec3ba267d11613",
+        "address": "141.94.64.81:26656"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "dymension-mainnet-peer.autostake.com:27086",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.dymension.nodestake.org",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "https://dymension-mainnet-rpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://dymension-rpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.dymension.nodestake.org",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "https://dymension-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://dymension-api.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.dymension.nodestake.org:443",
+        "provider": "NodeStake"
+      },
+      {
+        "address": "dymension-mainnet-grpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://dymension-grpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/dymension",
+      "tx_page": "https://explorer.nodestake.org/dymension/tx/${txHash}",
+      "account_page": "https://explorer.nodestake.org/dymension/account/${accountAddress}"
+    }
+  ]
 }
