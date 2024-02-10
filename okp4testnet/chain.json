@@ -3,7 +3,7 @@
   "chain_name": "okp4testnet",
   "chain_id": "okp4-drunemeton-1",
   "website": "https://okp4.network/",
-  "pretty_name": "OKP4 Nemeton",
+  "pretty_name": "OKP4",
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "okp4",
