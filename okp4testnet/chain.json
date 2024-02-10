@@ -69,6 +69,10 @@
       {
         "address": "https://rpc-t.okp4.nodestake.org",
         "provider": "NodeStake"
+      },
+      {
+        "address": "https://okp4-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
       }
     ],
     "rest": [
@@ -79,6 +83,10 @@
       {
         "address": "https://api-t.okp4.nodestake.top",
         "provider": "NodeStake"
+      },
+      {
+          "address": "https://okp4-testnet.nodejumper.io:1317",
+          "provider": "NODEJUMPER"
       }
     ],
     "grpc": [
