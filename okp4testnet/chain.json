@@ -85,8 +85,8 @@
         "provider": "NodeStake"
       },
       {
-          "address": "https://okp4-testnet.nodejumper.io:1317",
-          "provider": "NODEJUMPER"
+        "address": "https://okp4-testnet.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
       }
     ],
     "grpc": [
