@@ -99,6 +99,10 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://dym-m-rpc.agoranodes.com",
+        "provider": "AgoraNodes"
+      },
+      {
         "address": "https://rpc.dymension.nodestake.org",
         "provider": "NodeStake"
       },
@@ -173,9 +177,17 @@
       {
         "address": "https://rpc-dymension.hoodrun.io:443",
         "provider": "HoodRun"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2053",
+        "provider": "Wave"
       }
     ],
     "rest": [
+      {
+        "address": "https://dym-m-api.agoranodes.com",
+        "provider": "AgoraNodes"
+      },
       {
         "address": "https://api.dymension.nodestake.org",
         "provider": "NodeStake"
@@ -251,9 +263,17 @@
       {
         "address": "https://lcd-dymension.hoodrun.io",
         "provider": "HoodRun"
+      },
+      {
+        "address": "https://dymension.0xwave.com",
+        "provider": "Wave"
       }
     ],
     "grpc": [
+      {
+        "address": "https://dym-m-grpc.agoranodes.com",
+        "provider": "AgoraNodes"
+      },
       {
         "address": "grpc.dymension.nodestake.org:443",
         "provider": "NodeStake"
@@ -309,9 +329,17 @@
       {
         "address": "grpc-dymension.hoodrun.io:9095",
         "provider": "HoodRun"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2083",
+        "provider": "Wave"
       }
     ],
     "evm-http-jsonrpc": [
+      {
+        "address": "https://dym-m-json.agoranodes.com",
+        "provider": "AgoraNodes"
+      },
       {
         "address": "https://dymension-jsonrpc.ibs.team",
         "provider": "Inter Blockchain Services"
@@ -319,6 +347,10 @@
       {
         "address": "https://evm-dymension.hoodrun.io:8547",
         "provider": "HoodRun"
+      },
+      {
+        "address": "https://dymension.0xwave.com:2087",
+        "provider": "Wave"
       }
     ]
   },
