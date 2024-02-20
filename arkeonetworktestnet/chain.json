@@ -49,6 +49,14 @@
       {
         "address": "http://seed.arkeo.network:26657",
         "provider": "arkeo"
+      },
+      {
+        "address": "https://arkeo-testnet-rpc.stakerhouse.com",
+        "provider": "stakerhouse"
+      },
+      {
+        "address": "https://arkeo.rpc.blackowl.tech",
+        "provider": "blackowl"
       }
     ],
     "rest": [
@@ -67,6 +75,14 @@
       {
         "address": "http://seed.arkeo.network:1317",
         "provider": "arkeo"
+      },
+      {
+        "address": "https://arkeo-testnet-rest.stakerhouse.com",
+        "provider": "stakerhouse"
+      },
+      {
+        "address": "https://arkeo.api.blackowl.tech",
+        "provider": "blackowl"
       }
     ],
     "grpc": [
