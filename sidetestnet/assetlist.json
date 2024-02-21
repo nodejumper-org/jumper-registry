@@ -6,7 +6,7 @@
       "description": "The native token of Side Chain",
       "denom_units": [
         {
-          "denom": "uside",
+          "denom": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
           "exponent": 0
         }
       ],
