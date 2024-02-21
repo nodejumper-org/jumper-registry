@@ -1,9 +1,9 @@
 {
-  "$schema": "../../chain.schema.json",
+  "$schema": "../chain.schema.json",
   "chain_name": "entrypointtestnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "EntryPoint Testnet",
+  "pretty_name": "EntryPoint",
   "chain_id": "entrypoint-pubtest-2",
   "bech32_prefix": "entrypoint",
   "daemon_name": "entrypointd",
@@ -31,9 +31,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/entrypoint-zone/testnets",
-    "recommended_version": "v1.2.0",
+    "recommended_version": "v1.3.0",
     "compatible_versions": [
-      "v1.2.0"
+      "v1.3.0"
     ],
     "cosmos_sdk_version": "0.47.4",
     "consensus": {
@@ -70,21 +70,62 @@
       }
     ]
   },
+  "peers": {
+    "seeds": [
+      {
+        "id": "e1b2eddac829b1006eb6e2ddbfc9199f212e505f",
+        "address": "entrypoint-testnet-seed.itrocket.net:34656"
+      },
+      {
+        "id": "7048ee28300ffa81103cd24b2af3d1af0c378def",
+        "address": "entrypoint-testnet-peer.itrocket.net:34656"
+      },
+      {
+        "id": "05419a6f8cc137c4bb2d717ed6c33590aaae022d",
+        "address": "213.133.100.172:26878"
+      },
+      {
+        "id": "f7af71e7f32516f005192b21f1a83ca3f4fef4da",
+        "address": "142.132.202.92"
+      }
+    ]
+  },
   "apis": {
     "rpc": [
       {
-        "address": "https://testnet-rpc.entrypoint.zone",
-        "provider": "Simply Staking"
+        "address": "https://entrypoint-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://testnet-rpc.entrypoint.zone"
+      },
+      {
+        "address": "https://entrypoint-testnet-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://rpc.entrypoint.banyumas-ngapak.online"
+      },
+      {
+        "address": "https://entrypoint-testnet.rpc.nodex.one"
+      },
+      {
+        "address": "https://entrypoint-rpc.validatorvn.com"
       }
     ],
     "rest": [
       {
-        "address": "https://entry.api.t.stavr.tech",
-        "provider": "🔥STAVR🔥"
+        "address": "https://testnet-rest.entrypoint.zone"
       },
       {
-        "address": "https://testnet-rest.entrypoint.zone",
-        "provider": "Simply Staking"
+        "address": "https://entrypoint-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://entrypoint-testnet-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://entrypoint-testnet.api.nodex.one"
+      },
+      {
+        "address": "https://entrypoint-testnet.api.nodex.one"
       }
     ]
   },
