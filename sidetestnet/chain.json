@@ -39,7 +39,7 @@
   "peers": {
     "seeds": [
       {
-        "id": "45656,16cebdbf581b41757e66a8b5123db0248acf2ecc",
+        "id": "16cebdbf581b41757e66a8b5123db0248acf2ecc",
         "address": "207.244.230.15:26656"
       },
       {
