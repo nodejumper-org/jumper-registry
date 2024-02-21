@@ -1,0 +1,83 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "sidetestnet",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Side",
+  "chain_id": "side-testnet-1",
+  "bech32_prefix": "side",
+  "daemon_name": "sided",
+  "node_home": "$HOME/.sidechain",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uside",
+        "low_gas_price": 0.005
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uside"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/sideprotocol/sidechain.git",
+    "recommended_version": "0.0.1-75-gbd63479",
+    "compatible_versions": [
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/sideprotocol/testnet/main/shambhala/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "45656,16cebdbf581b41757e66a8b5123db0248acf2ecc",
+        "address": "207.244.230.15:26656"
+      },
+      {
+        "id": "2f08560378007822e59ed63122102563db47228f",
+        "address": "178.63.100.17:26656"
+      },
+      {
+        "id": "316af403caf9263cf55c721ae33b0a8e0ae27a8d",
+        "address": "109.123.238.54:26656"
+      },
+      {
+        "id": "9c14080752bdfa33f4624f83cd155e2d3976e303",
+        "address": "side-testnet-seed.itrocket.net:45656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://side-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://rpc.side-testnet.stake-take.com"
+      },
+      {
+        "address": "https://rpc-t.side.nodestake.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://side-rest.entrypoint.zone"
+      },
+      {
+        "address": "https://api.side-testnet.stake-take.com"
+      },
+      {
+        "address": "https://api-t.side.nodestake.org"
+      }
+    ]
+  }
+}

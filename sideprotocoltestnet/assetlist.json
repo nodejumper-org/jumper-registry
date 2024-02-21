@@ -1,0 +1,19 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "sidetestnet",
+  "assets": [
+    {
+      "description": "The native token of Side Chain",
+      "denom_units": [
+        {
+          "denom": "uside",
+          "exponent": 0
+        }
+      ],
+      "base": "uside",
+      "name": "Side",
+      "display": "side",
+      "symbol": "SIDE"
+    }
+  ]
+}
