@@ -29,7 +29,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/sideprotocol/sidechain.git",
-    "recommended_version": "0.6.0",
+    "recommended_version": "v0.6.0",
     "compatible_versions": [
     ],
     "genesis": {
