@@ -23,7 +23,7 @@
   "staking": {
     "staking_tokens": [
       {
-        "denom": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5"
+        "denom": "uside"
       }
     ]
   },
