@@ -143,6 +143,10 @@
       {
         "address": "https://testnet-grpc.pryzm.zone",
         "provider": "PRYZM"
+      },
+      {
+        "address": "http://pryzm-testnet-grpc.itrocket.net:41090",
+        "provider": "ITRocket"
       }
     ]
   },
@@ -156,6 +160,12 @@
       "url": "https://testnets.cosmosrun.info/pryzm-indigo-1",
       "tx_page": "https://testnets.cosmosrun.info/pryzm-indigo-1/tx/${txHash}",
       "account_page": "https://testnets.cosmosrun.info/pryzm-indigo-1/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/pryzm",
+      "tx_page": "https://testnet.itrocket.net/pryzm/tx/${txHash}",
+      "account_page": "https://testnet.itrocket.net/pryzm/account/${accountAddress}"
     }
   ],
   "images": [
