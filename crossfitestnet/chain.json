@@ -1,0 +1,64 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "crossfitestnet",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "CrossFi",
+  "chain_id": "crossfi-evm-testnet-1",
+  "bech32_prefix": "mx",
+  "daemon_name": "crossfid",
+  "node_home": "$HOME/.mineplex-chain",
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "mpx",
+        "fixed_min_gas_price": 10000000000000
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/crossfichain/crossfi-node",
+    "recommended_version": "0.3.0-prebuild3",
+    "compatible_versions": [
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/crossfichain/testnet/master/config/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "89752fa7945a06e972d7d860222a5eeaeab5c357",
+        "address": "128.140.70.97:26656"
+      },
+      {
+        "id": "dd83e3c7c4e783f8a46dbb010ec8853135d29df0",
+        "address": "crossfi-testnet-seed.itrocket.net:36656"
+      }
+    ],
+    "persistent_peers": [
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://crossfi-testnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://crossfi-testnet-api.itrocket.net",
+        "provider": "itrocket"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "crossfi-testnet-grpc.itrocket.net:36090",
+        "provider": "itrocket"
+      }
+    ]
+  },
+  "explorers": [
+  ]
+}

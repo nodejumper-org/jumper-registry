@@ -1,0 +1,19 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "crossfitestnet",
+  "assets": [
+    {
+      "description": "The native staking token of the CrossFi testnet",
+      "denom_units": [
+        {
+          "denom": "mpx",
+          "exponent": 0
+        }
+      ],
+      "base": "mpx",
+      "display": "mpx",
+      "name": "MPX",
+      "symbol": "MPX"
+    }
+  ]
+}
