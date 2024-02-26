@@ -17,10 +17,10 @@
     "fee_tokens": [
       {
         "denom": "ulava",
-        "fixed_min_gas_price": 1e-9,
-        "low_gas_price": 1e-9,
-        "average_gas_price": 1e-9,
-        "high_gas_price": 1e-9
+        "fixed_min_gas_price": 0.000001,
+        "low_gas_price": 0.000001,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
       }
     ]
   },
