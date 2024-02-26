@@ -15,7 +15,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "low_gas_price": 0.001,
+        "low_gas_price": 0.00001,
         "denom": "ubbn"
       }
     ]
