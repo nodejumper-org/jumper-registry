@@ -29,12 +29,12 @@
   },
   "codebase": {
     "git_repo": "https://github.com/babylonchain/babylon",
-    "recommended_version": "v0.7.2",
+    "recommended_version": "v0.8.3",
     "compatible_versions": [
       "v0.5.0"
     ],
     "genesis": {
-      "genesis_url": "https://github.com/babylonchain/networks/raw/main/bbn-test1/genesis.tar.bz2"
+      "genesis_url": "https://github.com/babylonchain/networks/tree/main/bbn-test-3/genesis.tar.bz2"
     },
     "versions": [
       {
@@ -50,67 +50,43 @@
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
   },
   "peers": {
-    "seeds": [],
-    "persistent_peers": [
+    "seeds": [
       {
-        "id": "03ce5e1b5be3c9a81517d415f65378943996c864",
-        "address": "18.207.168.204:26656",
-        "provider": "Babylon foundation"
+        "id": "49b4685f16670e784a0fe78f37cd37d56c7aff0e",
+        "address": "3.14.89.82:26656",
+        "provider": "Babylon Foundation"
       },
       {
-        "id": "a5fabac19c732bf7d814cf22e7ffc23113dc9606",
-        "address": "34.238.169.221:26656",
-        "provider": "Babylon foundation"
-      },
-      {
-        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
-        "address": "testnet-seeds.polkachu.com:20656",
-        "provider": "Polkachu"
+        "id": "9cb1974618ddd541c9a4f4562b842b96ffaf1446",
+        "address": "3.16.63.237:26656",
+        "provider": "Babylon Foundation"
       }
+    ],
+    "persistent_peers": [
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-testnet-babylon.nodeist.net",
-        "provider": "nodeist"
+        "address": "https://rpc.testnet3.babylonchain.io:443",
+        "provider": "Babylon Foundation"
       },
       {
-        "address": "https://babylon-testnet.rpc.kjnodes.com",
-        "provider": "kjnodes"
-      },
-      {
-        "address": "https://babylon-testnet-rpc.polkachu.com",
-        "provider": "polkachu"
-      },
-      {
-        "address": "https://t-babylon.rpc.utsa.tech/",
-        "provider": "lesnikutsa"
+        "address": "https://rpc-t.babylon.nodestake.org",
+        "provider": "Nodestake"
       }
     ],
     "rest": [
       {
-        "address": "https://api-testnet-babylon.nodeist.net",
-        "provider": "nodeist"
+        "address": "https://lcd.testnet3.babylonchain.io:443",
+        "provider": "Babylon Foundation"
       },
       {
-        "address": "https://babylon-testnet.api.kjnodes.com",
-        "provider": "kjnodes"
-      },
-      {
-        "address": "https://babylon-testnet-api.polkachu.com",
-        "provider": "polkachu"
-      },
-      {
-        "address": "https://t-babylon.api.utsa.tech",
-        "provider": "lesnikutsa"
+        "address": "https://api-t.babylon.nodestake.org",
+        "provider": "Nodestake"
       }
     ],
     "grpc": [
-      {
-        "address": "https://grpc-babylon.nodeist.net",
-        "provider": "nodeist"
-      }
     ]
   },
   "explorers": [
