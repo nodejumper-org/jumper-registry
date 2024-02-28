@@ -81,8 +81,12 @@
         "provider": "nodestake"
       },
       {
-        "address": "https://zetachain-rpc.polkachu.com/",
+        "address": "https://zetachain-rpc.polkachu.com",
         "provider": "polkachu"
+      },
+      {
+        "address": "https://rpc-1.zetachain.nodes.guru",
+        "provider": "Nodes.Guru"
       }
     ],
     "rest": [
@@ -101,6 +105,10 @@
       {
         "address": "https://zetachain-api.polkachu.com",
         "provider": "polkachu"
+      },
+      {
+        "address": "https://api-1.zetachain.nodes.guru",
+        "provider": "Nodes.Guru"
       }
     ],
     "grpc": [
