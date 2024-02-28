@@ -75,6 +75,14 @@
       {
         "address": "https://rpc-t.babylon.nodestake.org",
         "provider": "Nodestake"
+      },
+      {
+        "address": "https://babylon-testnet-rpc.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://rpc-1.testnet.babylon.nodes.guru",
+        "provider": "Nodes.Guru"
       }
     ],
     "rest": [
@@ -85,6 +93,14 @@
       {
         "address": "https://api-t.babylon.nodestake.org",
         "provider": "Nodestake"
+      },
+      {
+        "address": "https://babylon-testnet-api.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://api-1.testnet.babylon.nodes.guru",
+        "provider": "Nodes.Guru"
       }
     ],
     "grpc": [
