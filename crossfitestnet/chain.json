@@ -12,7 +12,8 @@
     "fee_tokens": [
       {
         "denom": "mpx",
-        "fixed_min_gas_price": 10000000000000
+        "fixed_min_gas_price": 5000000000,
+        "low_gas_price": 5000000000
       }
     ]
   },
