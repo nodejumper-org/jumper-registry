@@ -32,6 +32,7 @@
   },
   "codebase": {
     "recommended_version": "v0.20.0-rc1",
+    "cosmos_sdk_version": "v0.50.0",
     "compatible_versions": [
     ],
     "genesis": {
