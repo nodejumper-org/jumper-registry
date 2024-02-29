@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "cardtestnet-8",
+  "chain_id": "cardtestnet-9",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
@@ -22,7 +22,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
-    "recommended_version": "v0.13.0",
+    "recommended_version": "v0.14.1",
     "genesis": {
       "genesis_url": "http://45.136.28.158:3000/genesis.json"
     }
@@ -30,23 +30,15 @@
   "peers": {
     "seeds": [
       {
+        "id": "2aa407243c982ce2d9ee607b15418cf45b5002f7",
+        "address": "202.61.225.157:20056"
+      },
+      {
         "id": "947aa14a9e6722df948d46b9e3ff24dd72920257",
-        "address": "cardchain-testnet.itrocket.net:443"
+        "address": "cardchain-testnet-seed.itrocket.net:31656"
       }
     ],
     "persistent_peers": [
-      {
-        "id": "58bb9f1dcde0408fe4c3e7f8c6ccb7f8e410ca9c",
-        "address": "202.61.225.157:26656"
-      },
-      {
-        "id": "99dcfbba34316285fceea8feb0b644c4dc67c53b",
-        "address": "cardchain-testnet-peer.itrocket.net:443"
-      },
-      {
-        "id": "d9c2f63b5981ab58ebfa5815810ce47cbf7703a1",
-        "address": "51.222.44.116:31656"
-      }
     ]
   },
   "apis": {
@@ -60,8 +52,8 @@
         "provider": "itrocket"
       },
       {
-        "address": "http://202.61.225.157:26657",
-        "provider": "yesyoulikeCC"
+        "address": "https://cardchain-test.rpc.moonbridge.team",
+        "provider": "moonbridge"
       }
     ],
     "rest": [
@@ -72,6 +64,10 @@
       {
         "address": "https://cardchain-testnet-api.itrocket.net:443",
         "provider": "itrocket"
+      },
+      {
+        "address": "https://cardchain-test.api.moonbridge.team",
+        "provider": "moonbridge"
       }
     ],
     "grpc": [
@@ -83,9 +79,8 @@
   },
   "explorers": [
     {
-      "kind": "exploremepro",
-      "url": "https://crowdcontrol.exploreme.pro",
-      "tx_page": "https://crowdcontrol.exploreme.pro/transaction/${txHash}"
+      "url": "https://testnet.itrocket.net/cardchain",
+      "tx_page": "https://testnet.itrocket.net/cardchain/tx/${txHash}"
     }
   ]
 }
