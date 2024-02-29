@@ -1,5 +1,5 @@
 {
-  "$schema": "../../chain.schema.json",
+  "$schema": "../chain.schema.json",
   "chain_name": "uniontestnet",
   "status": "live",
   "network_type": "testnet",
@@ -30,6 +30,14 @@
       }
     ]
   },
+  "codebase": {
+    "recommended_version": "v0.20.0",
+    "compatible_versions": [
+    ],
+    "genesis": {
+      "genesis_url": "https://union.build/genesis.json"
+    }
+  },
   "peers": {
     "seeds": [
       {
@@ -56,6 +64,10 @@
       {
         "address": "https://rpc.testnet.bonlulu.uno",
         "provider": "bonlulu"
+      },
+      {
+        "address": "https://union-testnet.rpc.kjnodes.com",
+        "provider": "kjnodes"
       }
     ],
     "rest": [
@@ -74,6 +86,10 @@
       {
         "address": "https://api.testnet.bonlulu.uno",
         "provider": "bonlulu"
+      },
+      {
+        "address": "https://union-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
       }
     ],
     "grpc": [
