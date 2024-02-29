@@ -7,7 +7,7 @@
   "chain_id": "union-testnet-6",
   "bech32_prefix": "union",
   "daemon_name": "uniond",
-  "node_home": "$HOME/.uniond",
+  "node_home": "$HOME/.union",
   "key_algos": [
     "secp256k1"
   ],
