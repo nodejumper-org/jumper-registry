@@ -33,7 +33,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/okp4/okp4d",
-    "recommended_version": "v6.0.0",
+    "recommended_version": "v7.0.0",
     "compatible_versions": [
       "v6.0.0"
     ],
