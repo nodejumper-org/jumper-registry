@@ -40,7 +40,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/elys-network/elys",
-    "recommended_version": "v0.29.17",
+    "recommended_version": "v0.29.19",
     "compatible_versions": [],
     "cosmos_sdk_version": "v0.47",
     "consensus": {
