@@ -33,9 +33,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/UptickNetwork/uptick",
-    "recommended_version": "v0.2.18",
+    "recommended_version": "v0.2.19",
     "compatible_versions": [
-      "v0.2.4"
+      "v0.2.19"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/UptickNetwork/uptick/releases/download/v0.2.4/uptick-linux-amd64-v0.2.4.tar.gz"
