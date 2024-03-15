@@ -285,6 +285,10 @@
       {
         "address": "https://elys.rpc.t.stavr.tech:443",
         "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://elys-testnet.rpc.nodex.one:443",
+        "provider": "nodex"
       }
     ],
     "rest": [
