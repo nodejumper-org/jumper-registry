@@ -273,6 +273,18 @@
       {
         "address": "https://elys-testnet-rpc.itrocket.net:443",
         "provider": "itrocket"
+      },
+      {
+        "address": "https://elys.rpc.liveraven.net:443",
+        "provider": "liveraven"
+      },
+      {
+        "address": "https://elys-testnet-rpc.staketab.org:443",
+        "provider": "Staketab"
+      },
+      {
+        "address": "https://elys.rpc.t.stavr.tech:443",
+        "provider": "🔥STAVR🔥"
       }
     ],
     "rest": [
