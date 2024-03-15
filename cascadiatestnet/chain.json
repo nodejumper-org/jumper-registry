@@ -121,12 +121,12 @@
         "provider": "systemd"
       },
       {
-        "address": "https://cascadia.rpc.liveraven.net:443",
-        "provider": "LiveRaveN"
+        "address": "https://api.cascadia-t.indonode.net:443",
+        "provider": "Indonode"
       },
       {
-        "address": "https://cascadia.validatorvn.com:443",
-        "provider": "ValidatorVN"
+        "address": "https://rpc-test.cascadia.hexnodes.co:443",
+        "provider": "Hexnodes"
       }
     ],
     "grpc": [
@@ -145,10 +145,6 @@
       {
         "address": "grpc-test.cascadia.hexnodes.co:19090",
         "provider": "Hexnodes"
-      },
-      {
-        "address": "cascadia.grpc.liveraven.net:443",
-        "provider": "LiveRaveN"
       }
     ],
     "rest": [
@@ -161,8 +157,12 @@
         "provider": "systemd"
       },
       {
-        "address": "https://cascadia.api.liveraven.net:443",
-        "provider": "LiveRaveN"
+        "address": "https://api.cascadia-t.indonode.net/",
+        "provider": "Indonode"
+      },
+      {
+        "address": "https://lcd-test.cascadia.hexnodes.co",
+        "provider": "Hexnodes"
       }
     ]
   },
