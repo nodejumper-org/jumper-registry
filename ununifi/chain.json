@@ -36,10 +36,8 @@
   },
   "codebase": {
     "git_repo": "https://github.com/UnUniFi/chain",
-    "recommended_version": "v4.0.1",
-    "compatible_versions": [
-      "v4.0.1"
-    ],
+    "recommended_version": "v4.0.2",
+    "compatible_versions": [],
     "binaries": {
       "linux/amd64": "https://github.com/UnUniFi/chain/releases/download/v4.0.1/ununifid"
     },
