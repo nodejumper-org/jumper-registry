@@ -4,7 +4,7 @@
   "status": "live",
   "website": "https://www.babylonchain.io",
   "network_type": "testnet",
-  "pretty_name": "Babylon Testnet",
+  "pretty_name": "Babylon",
   "chain_id": "bbn-test-3",
   "pre_fork_chain_name": "babylontestnet1",
   "bech32_prefix": "bbn",
