@@ -36,7 +36,7 @@
     "compatible_versions": [
       "v0.1.0"
     ],
-    "cosmos_sdk_version": "0.50",
+    "cosmos_sdk_version": "v0.50.3",
     "consensus": {
       "type": "cometbft",
       "version": "0.38"
