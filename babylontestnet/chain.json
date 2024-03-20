@@ -134,25 +134,29 @@
   "apis": {
     "rpc": [
       {
-        "address": "rpc.testnet3.babylonchain.io:443",
+        "address": "https://rpc.testnet3.babylonchain.io:443",
         "provider": "Babylon foundation"
       },
       {
-        "address": "https://rpc-t.babylon.nodestake.org",
-        "provider": "Nodestake"
+        "address": "https://babylon-testnet.rpc.kjnodes.com:443",
+        "provider": "kjnodes"
       },
       {
-        "address": "https://babylon-testnet-rpc.polkachu.com",
+        "address": "https://babylon-testnet-rpc.polkachu.com:443",
         "provider": "Polkachu"
       },
       {
-        "address": "https://rpc-1.testnet.babylon.nodes.guru",
+        "address": "https://rpc-1.testnet.babylon.nodes.guru:443",
         "provider": "Nodes.Guru"
+      },
+      {
+        "address": "https://babylon-testnet.rpc.l0vd.com:443",
+        "provider": "L0vd"
       }
     ],
     "rest": [
       {
-        "address": "lcd.testnet3.babylonchain.io:443",
+        "address": "https://lcd.testnet3.babylonchain.io:443",
         "provider": "Babylon foundation"
       },
       {
