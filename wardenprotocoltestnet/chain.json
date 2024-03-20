@@ -1,9 +1,9 @@
 {
-  "$schema": "../../chain.schema.json",
+  "$schema": "../chain.schema.json",
   "chain_name": "wardenprotocoltestnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Warden Protocol Alfama Testnet",
+  "pretty_name": "Warden Protocol",
   "chain_id": "alfama",
   "bech32_prefix": "warden",
   "daemon_name": "wardend",
@@ -85,14 +85,30 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.alfama.wardenprotocol.org/",
+        "address": "https://rpc.alfama.wardenprotocol.org:443",
         "provider": "Warden Protocol"
+      },
+      {
+        "address": "https://warden-testnet-rpc.itrocket.net:443",
+        "provider": "itRocket"
+      },
+      {
+        "address": "https://warden.rpc.t.stavr.tech:443",
+        "provider": "stavr"
       }
     ],
     "rest": [
       {
         "address": "https://rest.alfama.wardenprotocol.org/",
         "provider": "Warden Protocol"
+      },
+      {
+        "address": "https://warden-testnet-api.itrocket.net",
+        "provider": "itRocket"
+      },
+      {
+        "address": "https://warden.api.t.stavr.tech:443",
+        "provider": "stavr"
       }
     ],
     "grpc": [
