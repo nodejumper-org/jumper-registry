@@ -45,6 +45,11 @@
         "id": "b37de4c50e26f7cde4c7b6ce06046a6693ffef2c",
         "address": "union.testnet.6.seed.poisonphang.com:26656",
         "provider": ""
+      },
+      {
+        "id": "2812a4ae3ebfba02973535d05d2bbcc80b7d215f",
+        "address": "union-testnet-seed.itrocket.net:23656",
+        "provider": ""
       }
     ]
   },
@@ -65,6 +70,10 @@
       {
         "address": "https://union-testnet.rpc.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://union-testnet-rpc.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
     "rest": [
@@ -83,6 +92,10 @@
       {
         "address": "https://union-testnet.api.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://union-testnet-api.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
     "grpc": [
@@ -97,6 +110,10 @@
       {
         "address": "https://grpc.testnet.bonlulu.uno",
         "provider": "bonlulu"
+      },
+      {
+        "address": "http://union-testnet-grpc.itrocket.net:23090",
+        "provider": "ITRocket"
       }
     ]
   },
