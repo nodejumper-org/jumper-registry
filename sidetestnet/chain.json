@@ -4,7 +4,7 @@
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Side",
-  "chain_id": "side-testnet-2",
+  "chain_id": "side-testnet-3",
   "bech32_prefix": "side",
   "daemon_name": "sided",
   "node_home": "$HOME/.side",
@@ -29,22 +29,22 @@
   },
   "codebase": {
     "git_repo": "https://github.com/sideprotocol/sidechain.git",
-    "recommended_version": "v0.6.0",
+    "recommended_version": "v0.7.0-rc2",
     "compatible_versions": [
     ],
     "genesis": {
-      "genesis_url": "https://raw.githubusercontent.com/sideprotocol/testnet/main/side-testnet-2/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/sideprotocol/testnet/main/side-testnet-3/genesis.json"
     }
   },
   "peers": {
     "seeds": [
       {
-        "id": "d9911bd0eef9029e8ce3263f61680ef4f71a87c4",
-        "address": "13.230.121.124:26656"
+        "id": "6decdc5565bf5232cdf5597a7784bfe828c32277",
+        "address": "158.220.126.137:11656"
       },
       {
-        "id": "693bdfec73a81abddf6f758aa49321de48456a96",
-        "address": "13.231.67.192:26656"
+        "id": "e9ee4fb923d5aab89207df36ce660ff1b882fc72",
+        "address": "136.243.33.177:21656"
       },
       {
         "id": "9c14080752bdfa33f4624f83cd155e2d3976e303",
