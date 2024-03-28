@@ -279,6 +279,10 @@
       {
         "address": "https://elys-testnet.rpc.nodex.one:443",
         "provider": "nodex"
+      },
+      {
+        "address": "https://elys-rpc.kleomedes.network:443",
+        "provider": "Kleomedes"
       }
     ],
     "rest": [
@@ -297,6 +301,10 @@
       {
         "address": "https://elys-testnet-api.itrocket.net",
         "provider": "itrocket"
+      },
+      {
+        "address": "https://elys-api.kleomedes.network:443",
+        "provider": "Kleomedes"
       }
     ],
     "grpc": [
