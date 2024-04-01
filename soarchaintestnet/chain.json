@@ -29,7 +29,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/soar-robotics/testnet-binaries",
-    "recommended_version": "v0.2.6",
+    "recommended_version": "v0.2.8",
     "compatible_versions": [
     ]
   },
