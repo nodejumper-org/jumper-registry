@@ -86,6 +86,10 @@
       {
         "address": "https://pylons.rpc.m.anode.team",
         "provider": "anode"
+      },
+      {
+        "address": "https:/pylons-rpc.noders.services",
+        "provider": "[NODERS]TEAM"
       }
     ],
     "rest": [
@@ -100,6 +104,10 @@
       {
         "address": "https://pylons.api.m.anode.team/",
         "provider": "anode"
+      },
+      {
+        "address": "https://pylons-api.noders.services",
+        "provider": "[NODERS]TEAM"
       }
     ],
     "grpc": [

@@ -231,6 +231,10 @@
       {
         "address": "https://rpc.dymension.bronbro.io:443",
         "provider": "Bro_n_Bro"
+      },
+      {
+        "address": "https://dymension-rpc.noders.services",
+        "provider": "[NODERS]TEAM"
       }
     ],
     "rest": [
@@ -341,6 +345,10 @@
       {
         "address": "https://lcd.dymension.bronbro.io:443",
         "provider": "Bro_n_Bro"
+      },
+      {
+        "address": "https://dymension-api.noders.services",
+        "provider": "[NODERS]TEAM"
       }
     ],
     "grpc": [
@@ -423,6 +431,10 @@
       {
         "address": "https://grpc.dymension.bronbro.io:443",
         "provider": "Bro_n_Bro"
+      },
+      {
+        "address": "dymension-grpc.noders.services:12090",
+        "provider": "[NODERS]TEAM"
       }
     ],
     "evm-http-jsonrpc": [
@@ -453,6 +465,10 @@
       {
         "address": "https://evm-rpc.dymension.posthuman.digital",
         "provider": "posthuman"
+      },
+      {
+        "address": "https://dymension-jsonrpc.noders.services",
+        "provider": "[NODERS]TEAM"
       }
     ]
   },
