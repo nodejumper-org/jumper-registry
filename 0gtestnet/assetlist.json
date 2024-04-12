@@ -1,0 +1,23 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "0gtestnet",
+  "assets": [
+    {
+      "description": "The native staking token of 0G",
+      "denom_units": [
+        {
+          "denom": "aevmos",
+          "exponent": 0
+        },
+        {
+          "denom": "evmos",
+          "exponent": 18
+        }
+      ],
+      "base": "aevmos",
+      "name": "Evmos",
+      "display": "evmos",
+      "symbol": "EVMOS"
+    }
+  ]
+}

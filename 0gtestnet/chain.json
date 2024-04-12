@@ -1,0 +1,71 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "0gtestnet",
+  "status": "live",
+  "website": "https://0g.ai",
+  "network_type": "testnet",
+  "pretty_name": "0G",
+  "chain_id": "zgtendermint_9000-1",
+  "bech32_prefix": "evmos",
+  "daemon_name": "evmosd",
+  "node_home": "$HOME/.evmosd",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "low_gas_price": 250000000,
+        "denom": "aevmos"
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "aevmos"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/0glabs/0g-evmos",
+    "recommended_version": "v1.0.0-testnet",
+    "compatible_versions": [],
+    "genesis": {
+      "genesis_url": "https://github.com/0glabs/0g-evmos/releases/download/v1.0.0-testnet/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "8c01665f88896bca44e8902a30e4278bed08033f",
+        "address": "54.241.167.190:26656",
+      },
+      {
+        "id": "b288e8b37f4b0dbd9a03e8ce926cd9c801aacf27",
+        "address": "54.176.175.48:26656",
+      },
+      {
+        "id": "8e20e8e88d504e67c7a3a58c2ea31d965aa2a890",
+        "address": "54.193.250.204:26656",
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://og-testnet-rpc.itrocket.net",
+        "provider": "itrocket"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://og-testnet-api.itrocket.net",
+        "provider": "itrocket"
+      }
+    ],
+    "grpc": []
+  },
+  "explorers": []
+}
