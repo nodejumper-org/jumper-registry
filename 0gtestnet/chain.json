@@ -57,12 +57,23 @@
       {
         "address": "https://og-testnet-rpc.itrocket.net",
         "provider": "itrocket"
+      },
+      {
+        "address": "http://65.21.69.53:14257"
+      },
+      {
+        "address": "https://rpc-zero-gravity-testnet.trusted-point.com:443",
+        "provider": "trusted-point"
       }
     ],
     "rest": [
       {
         "address": "https://og-testnet-api.itrocket.net",
         "provider": "itrocket"
+      },
+      {
+        "address": "https://api-zero-gravity-testnet.trusted-point.com:443",
+        "provider": "trusted-point"
       }
     ],
     "grpc": []
