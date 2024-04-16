@@ -1,7 +1,7 @@
 {
-  "$schema": "../../chain.schema.json",
+  "$schema": "../chain.schema.json",
   "chain_name": "paloma",
-  "chain_id": "messenger",
+  "chain_id": "racer",
   "pretty_name": "Paloma",
   "status": "live",
   "network_type": "mainnet",
