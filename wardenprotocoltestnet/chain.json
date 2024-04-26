@@ -3,7 +3,7 @@
   "chain_name": "wardenprotocoltestnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Warden Protocol",
+  "pretty_name": "Warden Protocol Buenavista",
   "chain_id": "buenavista-1",
   "bech32_prefix": "warden",
   "daemon_name": "wardend",
@@ -47,10 +47,10 @@
     },
     "versions": [
       {
-        "name": "v0.1.0",
-        "recommended_version": "v0.1.0",
+        "name": "v0.3.0",
+        "recommended_version": "v0.3.0",
         "compatible_versions": [
-          "v0.1.0"
+          "v0.3.0"
         ],
         "cosmos_sdk_version": "0.50",
         "consensus": {
@@ -98,7 +98,7 @@
     ],
     "rest": [
       {
-        "address": "https://rest.alfama.wardenprotocol.org/",
+        "address": "https://api.buenavista.wardenprotocol.org/",
         "provider": "Warden Protocol"
       },
       {
@@ -110,19 +110,17 @@
         "provider": "stavr"
       }
     ],
-    "grpc": []
+    "grpc": [
+      {
+        "address": "https://grpc.buenavista.wardenprotocol.org/",
+        "provider": "Warden Protocol"
+      }
+    ]
   },
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png"
   },
-  "explorers": [
-    {
-      "kind": "ping.pub",
-      "url": "https://warden-explorer.paranorm.pro/warden",
-      "tx_page": "https://warden-explorer.paranorm.pro/warden/tx/${txHash}",
-      "account_page": "https://warden-explorer.paranorm.pro/warden/account/${accountAddress}"
-    }
-  ],
+  "explorers": [],
   "keywords": [
     "testnet"
   ],
@@ -132,3 +130,4 @@
     }
   ]
 }
+
