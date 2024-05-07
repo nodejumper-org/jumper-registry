@@ -33,9 +33,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/ComposableFi/composable-cosmos",
-    "recommended_version": "v6.5.4",
+    "recommended_version": "v6.6.4",
     "compatible_versions": [
-      "v6.5.4"
+      "v6.6.4"
     ],
     "cosmos_sdk_version": "rust-ninja/cosmos-sdk v0.47.5-patch-validators-trim-tag",
     "ibc_go_version": "notional-labs/ibc-go/v7 v7.2.1-0.20231010040541-6cf43006971f",
