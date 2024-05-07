@@ -2,12 +2,12 @@
   "$schema": "../chain.schema.json",
   "chain_name": "composable",
   "chain_id": "centauri-1",
-  "website": "https://www.composable.finance/",
-  "pretty_name": "Composable",
+  "website": "https://www.picasso.xyz/",
+  "pretty_name": "Picasso",
   "status": "live",
   "network_type": "mainnet",
-  "bech32_prefix": "centauri",
-  "daemon_name": "centaurid",
+  "bech32_prefix": "pica",
+  "daemon_name": "picad",
   "node_home": "$HOME/.banksy",
   "key_algos": [
     "secp256k1"
