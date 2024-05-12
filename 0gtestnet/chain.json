@@ -15,15 +15,15 @@
   "fees": {
     "fee_tokens": [
       {
-        "low_gas_price": 250000000,
-        "denom": "aevmos"
+        "low_gas_price": 0.0025,
+        "denom": "ua0gi"
       }
     ]
   },
   "staking": {
     "staking_tokens": [
       {
-        "denom": "aevmos"
+        "denom": "ua0gi"
       }
     ]
   },
