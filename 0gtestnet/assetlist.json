@@ -6,18 +6,14 @@
       "description": "The native staking token of 0G",
       "denom_units": [
         {
-          "denom": "aevmos",
+          "denom": "ua0gi",
           "exponent": 0
-        },
-        {
-          "denom": "evmos",
-          "exponent": 18
         }
       ],
-      "base": "aevmos",
-      "name": "Evmos",
-      "display": "evmos",
-      "symbol": "EVMOS"
+      "base": "ua0gi",
+      "name": "A0GI",
+      "display": "a0gi",
+      "symbol": "A0GI"
     }
   ]
 }

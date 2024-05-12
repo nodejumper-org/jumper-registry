@@ -5,10 +5,10 @@
   "website": "https://0g.ai",
   "network_type": "testnet",
   "pretty_name": "0G",
-  "chain_id": "zgtendermint_9000-1",
+  "chain_id": "zgtendermint_16600-1",
   "bech32_prefix": "evmos",
-  "daemon_name": "evmosd",
-  "node_home": "$HOME/.evmosd",
+  "daemon_name": "0gchaind",
+  "node_home": "$HOME/.0gchain",
   "key_algos": [
     "ethsecp256k1"
   ],
@@ -28,52 +28,69 @@
     ]
   },
   "codebase": {
-    "git_repo": "https://github.com/0glabs/0g-evmos",
-    "recommended_version": "v1.0.0-testnet",
+    "git_repo": "https://github.com/0glabs/0g-chain",
+    "recommended_version": "v0.1.0",
     "compatible_versions": [],
     "genesis": {
-      "genesis_url": "https://github.com/0glabs/0g-evmos/releases/download/v1.0.0-testnet/genesis.json"
+      "genesis_url": "https://github.com/0glabs/0g-chain/releases/download/v0.1.0/genesis.json"
     }
   },
   "peers": {
-    "seeds": [],
-    "persistent_peers": [
+    "seeds": [
       {
-        "id": "8c01665f88896bca44e8902a30e4278bed08033f",
-        "address": "54.241.167.190:26656",
+        "id": "c4d619f6088cb0b24b4ab43a0510bf9251ab5d7f",
+        "address": "54.241.167.190:26656"
       },
       {
-        "id": "b288e8b37f4b0dbd9a03e8ce926cd9c801aacf27",
-        "address": "54.176.175.48:26656",
+        "id": "44d11d4ba92a01b520923f51632d2450984d5886",
+        "address": "54.176.175.48:26656"
       },
       {
-        "id": "8e20e8e88d504e67c7a3a58c2ea31d965aa2a890",
-        "address": "54.193.250.204:26656",
+        "id": "f2693dd86766b5bf8fd6ab87e2e970d564d20aff",
+        "address": "54.193.250.204:26656"
       }
-    ]
+    ],
+    "persistent_peers": []
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://og-testnet-rpc.itrocket.net",
-        "provider": "itrocket"
+        "address": "https://rpc.0g.crptmax.com:443"
       },
       {
-        "address": "http://65.21.69.53:14257"
+        "address": "https://og-testnet-rpc.blockhub.id:443"
       },
       {
-        "address": "https://rpc-zero-gravity-testnet.trusted-point.com:443",
-        "provider": "trusted-point"
+        "address": "https://rpc-t-0g.anatolianteam.com:443"
+      },
+      {
+        "address": "https://rpc.0g.idekubagus.com:443"
+      },
+      {
+        "address": "https://rpc-0g.sebatian.org:443"
+      },
+      {
+        "address": "https://rpc.0gchain.dz-staking.com:443"
       }
     ],
     "rest": [
       {
-        "address": "https://og-testnet-api.itrocket.net",
-        "provider": "itrocket"
+        "address": "https://api.0g.crptmax.com:443"
       },
       {
-        "address": "https://api-zero-gravity-testnet.trusted-point.com:443",
-        "provider": "trusted-point"
+        "address": "https://og-testnet-api.blockhub.id:443"
+      },
+      {
+        "address": "https://api-t-0g.anatolianteam.com:443"
+      },
+      {
+        "address": "https://api.0g.idekubagus.com:443"
+      },
+      {
+        "address": "https://api-0g.sebatian.org:443"
+      },
+      {
+        "address": "https://api.0gchain.dz-staking.com:443"
       }
     ],
     "grpc": []
