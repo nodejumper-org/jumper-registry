@@ -23,6 +23,7 @@
   "codebase": {
     "git_repo": "https://github.com/initia-labs/initia",
     "recommended_version": "v0.2.14",
+    "cosmos_sdk_version": "v0.50.6",
     "compatible_versions": [],
     "genesis": {
       "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/genesis.json"
