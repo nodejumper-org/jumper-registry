@@ -44,6 +44,10 @@
         "id": "c28827cb96c14c905b127b92065a3fb4cd77d7f6",
         "address": "testnet-seeds.whispernode.com:25756",
         "provider": "whispernode"
+      },
+      {
+        "id": "cd69bcb00a6ecc1ba2b4a3465de4d4dd3e0a3db1",
+        "address": "initia-testnet-seed.itrocket.net:51656"
       }
     ],
     "persistent_peers": [
