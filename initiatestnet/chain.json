@@ -1,0 +1,103 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "initiatestnet",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Initia",
+  "chain_id": "initiation-1",
+  "bech32_prefix": "init",
+  "daemon_name": "initiad",
+  "node_home": "$HOME/.initia",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uinit",
+        "fixed_min_gas_price": 0.15
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/initia-labs/initia",
+    "recommended_version": "v0.2.14",
+    "compatible_versions": [],
+    "genesis": {
+      "genesis_url": "https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/genesis.json"
+    },
+    "versions": []
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "2eaa272622d1ba6796100ab39f58c75d458b9dbc",
+        "address": "34.142.181.82:26656"
+      },
+      {
+        "id": "c28827cb96c14c905b127b92065a3fb4cd77d7f6",
+        "address": "testnet-seeds.whispernode.com:25756",
+        "provider": "whispernode"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "093e1b89a498b6a8760ad2188fbda30a05e4f300",
+        "address": "35.240.207.217:26656"
+      },
+      {
+        "id": "2c729d33d22d8cdae6658bed97b3097241ca586c",
+        "address": "195.14.6.129:26019"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-initia-testnet.whispernode.com"
+      },
+      {
+        "address": "https://initia-testnet-rpc.orbitalcommand.io"
+      },
+      {
+        "address": "https://testnet-initia-rpc.lavenderfive.com"
+      },
+      {
+        "address": "https://initia-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-initia.01node.com"
+      },
+      {
+        "address": "https://rpc.initiation.test.pfc.zone"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-initia-testnet.whispernode.com"
+      },
+      {
+        "address": "https://initia-testnet-lcd.orbitalcommand.io"
+      },
+      {
+        "address": "https://testnet-initia-api.lavenderfive.com"
+      },
+      {
+        "address": "https://api.initiation.test.pfc.zone"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "testnet-initia-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc.initiation.test.pfc.zone"
+      },
+      {
+        "address": "grpc-initia.01node.com:9090"
+      }
+    ]
+  },
+  "explorers": []
+}
