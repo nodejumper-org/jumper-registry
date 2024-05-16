@@ -34,7 +34,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
-    "recommended_version": "v15.0.0",
+    "recommended_version": "v16.0.0",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/zeta-chain/network-athens3/main/network_files/config/genesis.json"
     }
