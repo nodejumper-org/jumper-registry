@@ -17,6 +17,10 @@
       {
         "denom": "uinit",
         "fixed_min_gas_price": 0.15
+      },
+      {
+        "denom": "uusdc",
+        "fixed_min_gas_price": 0.01
       }
     ]
   },
