@@ -19,7 +19,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/crossfichain/crossfi-node",
-    "recommended_version": "0.3.0-prebuild3",
+    "recommended_version": "0.3.0-prebuild9",
     "compatible_versions": [
     ],
     "genesis": {
