@@ -16,8 +16,10 @@
   "fees": {
     "fee_tokens": [
       {
-        "low_gas_price": 0.001,
-        "denom": "uandr"
+        "denom": "uandr",
+        "low_gas_price": 0.03,
+        "average_gas_price": 0.05,
+        "high_gas_price": 0.075
       }
     ]
   },
@@ -360,3 +362,4 @@
     }
   ]
 }
+
