@@ -32,9 +32,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/pryzm-finance/pryzm-core",
-    "recommended_version": "v0.16.0",
+    "recommended_version": "v0.17.0",
     "compatible_versions": [
-      "v0.16.0"
+      "v0.17.0"
     ],
     "cosmos_sdk_version": "0.47.10",
     "consensus": {
@@ -47,10 +47,10 @@
     },
     "versions": [
       {
-        "name": "v0.16.0",
-        "recommended_version": "v0.16.0",
+        "name": "v0.17.0",
+        "recommended_version": "v0.17.0",
         "compatible_versions": [
-          "v0.16.0"
+          "v0.17.0"
         ],
         "cosmos_sdk_version": "0.47.10",
         "consensus": {
