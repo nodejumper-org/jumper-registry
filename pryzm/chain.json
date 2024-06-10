@@ -57,7 +57,7 @@
           "type": "tendermint",
           "version": "0.37.4"
         },
-        "ibc_go_version": "7.4.0"
+        "ibc_go_version": "7.4.c0"
       }
     ]
   },
