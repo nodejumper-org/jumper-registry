@@ -57,7 +57,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/pryzm-finance/pryzm-core",
-    "recommended_version": "0.15.0",
+    "recommended_version": "0.17.0",
     "compatible_versions": [],
     "cosmos_sdk_version": "0.47",
     "consensus": {
