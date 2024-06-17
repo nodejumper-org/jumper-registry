@@ -10,7 +10,6 @@
   "slip44": 60,
   "node_home": "$HOME/.dymension",
   "daemon_name": "dymd",
-  "node_home": "$HOME/.dymension",
   "fees": {
     "fee_tokens": [
       {
@@ -42,9 +41,9 @@
   ],
   "codebase": {
     "git_repo": "https://github.com/dymensionxyz/dymension",
-    "recommended_version": "v3.0.0",
+    "recommended_version": "v3.1.0",
     "compatible_versions": [
-      "v3.0.0"
+      "v3.1.0"
     ],
     "genesis": {
       "genesis_url": "https://github.com/dymensionxyz/networks/raw/main/mainnet/dymension/genesis.json"
