@@ -35,7 +35,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/andromedaprotocol/andromedad",
-    "recommended_version": "av0.1.1-alpha-patch",
+    "recommended_version": "v0.1.1-alpha-patch",
     "compatible_versions": [
       "v0.1.1-alpha-patch"
     ],
@@ -361,4 +361,3 @@
     }
   ]
 }
-
