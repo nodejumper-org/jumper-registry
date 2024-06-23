@@ -162,6 +162,10 @@
       {
         "address": "https://soarchain-testnet-rpc.stakerhouse.com",
         "provider": "stakerHouse"
+      },
+      {
+        "address": "https://soarchain-testnet.rpc.nodex.one",
+        "provider": "nodex"
       }
     ],
     "rest": [
@@ -180,6 +184,14 @@
       {
         "address": "https://api-t.soarchain.nodestake.org",
         "provider": "nodeStake"
+      },
+      {
+        "address": "https://soarchain-testnet.api.nodex.one",
+        "provider": "nodex"
+      },
+      {
+        "address": "https://soarchain-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
       }
     ],
     "grpc": [
@@ -194,6 +206,10 @@
       {
         "address": "soarchain-testnet-grpc.stakerhouse.com:443",
         "provider": "stakerHouse"
+      },
+      {
+        "address": "https://soarchain-testnet.grpc.nodex.one",
+        "provider": "nodex"
       }
     ]
   },

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "0gtestnet",
+  "assets": [
+    {
+      "description": "The native staking token of 0G",
+      "denom_units": [
+        {
+          "denom": "ua0gi",
+          "exponent": 0
+        }
+      ],
+      "base": "ua0gi",
+      "name": "A0GI",
+      "display": "a0gi",
+      "symbol": "A0GI"
+    }
+  ]
+}

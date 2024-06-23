@@ -1,0 +1,99 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "0gtestnet",
+  "status": "live",
+  "website": "https://0g.ai",
+  "network_type": "testnet",
+  "pretty_name": "0G",
+  "chain_id": "zgtendermint_16600-1",
+  "bech32_prefix": "evmos",
+  "daemon_name": "0gchaind",
+  "node_home": "$HOME/.0gchain",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "low_gas_price": 0.0025,
+        "denom": "ua0gi"
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ua0gi"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/0glabs/0g-chain",
+    "recommended_version": "v0.1.0",
+    "compatible_versions": [],
+    "genesis": {
+      "genesis_url": "https://github.com/0glabs/0g-chain/releases/download/v0.1.0/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "c4d619f6088cb0b24b4ab43a0510bf9251ab5d7f",
+        "address": "54.241.167.190:26656"
+      },
+      {
+        "id": "44d11d4ba92a01b520923f51632d2450984d5886",
+        "address": "54.176.175.48:26656"
+      },
+      {
+        "id": "f2693dd86766b5bf8fd6ab87e2e970d564d20aff",
+        "address": "54.193.250.204:26656"
+      }
+    ],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.0g.crptmax.com:443"
+      },
+      {
+        "address": "https://og-testnet-rpc.blockhub.id:443"
+      },
+      {
+        "address": "https://rpc-t-0g.anatolianteam.com:443"
+      },
+      {
+        "address": "https://rpc.0g.idekubagus.com:443"
+      },
+      {
+        "address": "https://rpc-0g.sebatian.org:443"
+      },
+      {
+        "address": "https://rpc.0gchain.dz-staking.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.0g.crptmax.com:443"
+      },
+      {
+        "address": "https://og-testnet-api.blockhub.id:443"
+      },
+      {
+        "address": "https://api-t-0g.anatolianteam.com:443"
+      },
+      {
+        "address": "https://api.0g.idekubagus.com:443"
+      },
+      {
+        "address": "https://api-0g.sebatian.org:443"
+      },
+      {
+        "address": "https://api.0gchain.dz-staking.com:443"
+      }
+    ],
+    "grpc": []
+  },
+  "explorers": []
+}

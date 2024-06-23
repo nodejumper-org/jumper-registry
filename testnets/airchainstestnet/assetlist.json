@@ -1,0 +1,19 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "airchainstestnet",
+  "assets": [
+    {
+      "description": "Airchains main token",
+      "denom_units": [
+        {
+          "denom": "amf",
+          "exponent": 0
+        }
+      ],
+      "base": "amf",
+      "display": "amf",
+      "name": "amf",
+      "symbol": "AMF"
+    }
+  ]
+}

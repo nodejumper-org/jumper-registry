@@ -1,0 +1,71 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "defundtestnet",
+  "chain_id": "orbit-alpha-1",
+  "pretty_name": "Defund",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "defund",
+  "daemon_name": "defundd",
+  "node_home": "$HOME/.defund",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ufetf"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/defund-labs/defund",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/defund-labs/testnet/main/orbit-alpha-1/genesis.json"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-t.defund.nodestake.top",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://defund-testnet-rpc.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://defund-t.rpc.bccnodes.com",
+        "provider": "bccnodes"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-t.defund.nodestake.top",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://defund-testnet-api.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://defund-t.api.bccnodes.com",
+        "provider": "bccnodes"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://defund.grpc-t.bccnodes.com:14090",
+        "provider": "bccnodes"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "nodesguru",
+      "url": "https://defund.explorers.guru",
+      "tx_page": "https://defund.explorers.guru/transaction/${txHash}"
+    }
+  ]
+}

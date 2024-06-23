@@ -1,0 +1,57 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "initiatestnet",
+  "assets": [
+    {
+      "description": "The native token of Initia",
+      "denom_units": [
+        {
+          "denom": "uinit",
+          "exponent": 0
+        },
+        {
+          "denom": "INIT",
+          "exponent": 6
+        }
+      ],
+      "base": "uinit",
+      "display": "INIT",
+      "name": "Initia Native Token",
+      "symbol": "INIT"
+    },
+    {
+      "description": "The fake ETH",
+      "denom_units": [
+        {
+          "denom": "ueth",
+          "exponent": 0
+        },
+        {
+          "denom": "ETH",
+          "exponent": 6
+        }
+      ],
+      "base": "ueth",
+      "display": "ETH",
+      "name": "Fake ETH Token",
+      "symbol": "ETH"
+    },
+    {
+      "description": "The fake USDC",
+      "denom_units": [
+        {
+          "denom": "uusdc",
+          "exponent": 0
+        },
+        {
+          "denom": "USDC",
+          "exponent": 6
+        }
+      ],
+      "base": "uusdc",
+      "display": "USDC",
+      "name": "Fake USDC Token",
+      "symbol": "USDC"
+    }
+  ]
+}

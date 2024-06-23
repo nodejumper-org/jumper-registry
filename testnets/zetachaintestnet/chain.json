@@ -3,7 +3,7 @@
   "chain_name": "zetachaintestnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "ZetaChain Testnet",
+  "pretty_name": "ZetaChain",
   "chain_id": "athens_7001-1",
   "bech32_prefix": "zeta",
   "daemon_name": "zetacored",
@@ -34,7 +34,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
-    "recommended_version": "v8.3.3",
+    "recommended_version": "v17.0.0",
     "cosmos_sdk_version": "0.46",
     "consensus": {
       "type": "tendermint",
@@ -58,6 +58,12 @@
     ]
   },
   "peers": {
+    "seeds": [
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "zetachain-testnet.rpc.kjnodes.com:16059"
+      }
+    ],
     "persistent_peers": [
       {
         "id": "d5519e378247dfb61dfe90652d1fe3e2b3005a5b",
@@ -73,12 +79,40 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc-t.zeta.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-testnet-rpc.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://zetachain-testnet.rpc.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://zetachain-testnet-rpc.polkachu.com",
+        "provider": "polkachu"
+      },
+      {
         "address": "https://zetachain-athens.blockpi.network/rpc/v1/public",
         "provider": "BlockPI"
       },
       {
         "address": "https://zetachain-testnet-archive.allthatnode.com:26657",
         "provider": "All That Node"
+      },
+      {
+        "address": "http://47.253.40.34:26657",
+        "provider": "StakingCabin"
+      },
+      {
+        "address": "http://78.46.45.174:26657",
+        "provider": "noders"
+      },
+      {
+        "address": "http://141.94.214.137:26657",
+        "provider": "RockX"
       }
     ],
     "rest": [
@@ -89,6 +123,32 @@
       {
         "address": "https://zetachain-testnet-archive.allthatnode.com:1317",
         "provider": "All That Node"
+      },
+      {
+        "address": "https://api-t.zeta.nodestake.top",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://zetachain-testnet-api.itrocket.net:443",
+        "provider": "itrocket"
+      },
+      {
+        "address": "https://zetachain-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://zetachain-testnet-api.polkachu.com",
+        "provider": "polkachu"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-t.zeta.nodestake.top:443",
+        "provider": "nodestake"
+      },
+      {
+        "address": "zetachain-testnet.grpc.kjnodes.com:16190",
+        "provider": "kjnodes"
       }
     ]
   },

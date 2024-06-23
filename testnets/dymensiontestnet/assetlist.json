@@ -1,0 +1,19 @@
+{
+    "$schema": "../../assetlist.schema.json",
+    "chain_name": "dymensiontestnet",
+    "assets": [
+      {
+        "description": "The native staking and governance token of Dymension",
+        "denom_units": [
+          {
+            "denom": "udym",
+            "exponent": 6
+          }
+        ],
+        "base": "udym",
+        "name": "DYM",
+        "display": "dym",
+        "symbol": "DYM"
+      }
+    ]
+  }

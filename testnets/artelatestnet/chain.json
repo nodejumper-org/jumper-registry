@@ -3,7 +3,7 @@
   "chain_name": "artelatestnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Artela Testnet",
+  "pretty_name": "Artela",
   "chain_id": "artela_11820-1",
   "bech32_prefix": "art",
   "daemon_name": "artelad",
@@ -31,7 +31,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/artela-network/artela",
-    "recommended_version": "v0.4.2-beta",
+    "recommended_version": "v0.4.7-rc6",
     "compatible_versions": [
       "v0.4.2-beta"
     ],
@@ -85,6 +85,18 @@
         "id": "d89e10d917f6f7472125aa4c060c05afa78a9d65",
         "address": "47.251.32.165:26656",
         "provider": "Artela Foundation"
+      },
+      {
+        "id": "bec6934fcddbac139bdecce19f81510cb5e02949",
+        "address": "47.254.24.106:26656"
+      },
+      {
+        "id": "32d0e4aec8d8a8e33273337e1821f2fe2309539a",
+        "address": "47.88.58.36:26656"
+      },
+      {
+        "id": "1bf5b73f1771ea84f9974b9f0015186f1daa4266",
+        "address": "47.251.14.47:26656"
       }
     ]
   },
@@ -97,6 +109,30 @@
       {
         "address": "https://testnet-rpc2.artela.network",
         "provider": "Artela Foundation"
+      },
+      {
+        "address": "https://artela.rpc.liveraven.net:443",
+        "provider": "liveraven"
+      },
+      {
+        "address": "https://artelarpc1.cryptosj.net:443",
+        "provider": "cryptosj"
+      },
+      {
+        "address": "https://artela.rpc.blackowl.tech:443",
+        "provider": "blackowl"
+      },
+      {
+        "address": "https://rpc-testnet-artela.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://rpc-t.artela.nodestake.org",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://artela-testnet.rpc.nodex.one",
+        "provider": "nodex"
       }
     ],
     "rest": [
@@ -113,6 +149,18 @@
       {
         "address": "https://testnet-rpc1.artela.network",
         "provider": "Artela Foundation"
+      },
+      {
+        "address": "https://api-testnet-artela.nodeist.net",
+        "provider": "nodeist"
+      },
+      {
+        "address": "https://api-t.artela.nodestake.org",
+        "provider": "nodestake"
+      },
+      {
+        "address": "https://artela-testnet.api.nodex.one",
+        "provider": "nodex"
       }
     ]
   },
@@ -121,6 +169,10 @@
       "kind": "Artela Network",
       "url": "https://testnet-scan.artela.network",
       "tx_page": "https://testnet-scan.artela.network/tx/${txHash}"
+    },
+    {
+      "kind": "pingpub",
+      "url": "https://explorer.nodex.one/artela"
     }
   ]
 }
