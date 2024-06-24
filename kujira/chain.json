@@ -161,10 +161,8 @@
         "tag": "v0.8.4",
         "height": 9226200,
         "proposal": 302,
-        "recommended_version": "v0.8.4-mainnet",
+        "recommended_version": "v1.1.0",
         "compatible_versions": [
-          "v0.8.4",
-          "v0.8.4-mainnet"
         ],
         "cosmos_sdk_version": "0.46.11",
         "consensus": {
@@ -174,7 +172,6 @@
         "ics_enabled": [
           "ics20-1"
         ],
-        "next_version_name": "v0.8.7"
       },
       {
         "name": "v0.8.7",
