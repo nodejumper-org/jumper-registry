@@ -503,11 +503,11 @@
       },
       {
         "address": "grpc-bcna.kjinc.io:443",
-        "provider": "KJINC.io"        
+        "provider": "KJINC.io"
       },
       {
         "address": "bitcanna.grpc.nodex.one:443",
-        "provider": "NodeX Emperor ⚡ Bitcanna"    
+        "provider": "NodeX Emperor ⚡ Bitcanna"
       },
       {
         "address": "grpc.bitcanna.bh.rocks:42090",
@@ -609,7 +609,7 @@
       },
       {
         "address": "https://bitcanna.api.nodex.one",
-        "provider": "NodeX Emperor ⚡ Bitcanna"    
+        "provider": "NodeX Emperor ⚡ Bitcanna"
       },
       {
         "address": "https://bcna.api.arcturian.tech/",
