@@ -5,7 +5,7 @@
   "website": "https://0g.ai",
   "network_type": "testnet",
   "pretty_name": "0G",
-  "chain_id": "zgtendermint_16600-1",
+  "chain_id": "zgtendermint_16600-2",
   "bech32_prefix": "evmos",
   "daemon_name": "0gchaind",
   "node_home": "$HOME/.0gchain",
@@ -29,25 +29,22 @@
   },
   "codebase": {
     "git_repo": "https://github.com/0glabs/0g-chain",
-    "recommended_version": "v0.1.0",
-    "compatible_versions": [],
-    "genesis": {
-      "genesis_url": "https://github.com/0glabs/0g-chain/releases/download/v0.1.0/genesis.json"
-    }
+    "recommended_version": "v0.2.3",
+    "compatible_versions": []
   },
   "peers": {
     "seeds": [
       {
-        "id": "c4d619f6088cb0b24b4ab43a0510bf9251ab5d7f",
-        "address": "54.241.167.190:26656"
+        "id": "443a1a6f2859be27b4699ffcb31c62ab69af4ba2",
+        "address": "155.133.27.209:12656"
       },
       {
         "id": "44d11d4ba92a01b520923f51632d2450984d5886",
         "address": "54.176.175.48:26656"
       },
       {
-        "id": "f2693dd86766b5bf8fd6ab87e2e970d564d20aff",
-        "address": "54.193.250.204:26656"
+        "id": "8f21742ea5487da6e0697ba7d7b36961d3599567",
+        "address": "og-testnet-seed.itrocket.net:47656"
       }
     ],
     "persistent_peers": []
