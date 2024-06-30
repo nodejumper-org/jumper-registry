@@ -35,16 +35,20 @@
   "peers": {
     "seeds": [
       {
-        "id": "443a1a6f2859be27b4699ffcb31c62ab69af4ba2",
-        "address": "155.133.27.209:12656"
+        "id": "81987895a11f6689ada254c6b57932ab7ed909b6",
+        "address": "54.241.167.190:26656"
       },
       {
-        "id": "44d11d4ba92a01b520923f51632d2450984d5886",
+        "id": "010fb4de28667725a4fef26cdc7f9452cc34b16d",
         "address": "54.176.175.48:26656"
       },
       {
-        "id": "8f21742ea5487da6e0697ba7d7b36961d3599567",
-        "address": "og-testnet-seed.itrocket.net:47656"
+        "id": "e9b4bc203197b62cc7e6a80a64742e752f4210d5",
+        "address": "54.193.250.204:26656"
+      },
+      {
+        "id": "68b9145889e7576b652ca68d985826abd46ad660",
+        "address": "18.166.164.232:26656"
       }
     ],
     "persistent_peers": []
