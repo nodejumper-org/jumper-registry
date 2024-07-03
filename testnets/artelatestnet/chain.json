@@ -31,9 +31,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/artela-network/artela",
-    "recommended_version": "v0.4.7-rc6",
+    "recommended_version": "v0.4.7-rc7",
     "compatible_versions": [
-      "v0.4.2-beta"
+      "v0.4.7-rc7"
     ],
     "cosmos_sdk_version": "0.47",
     "consensus": {
