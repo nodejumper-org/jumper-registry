@@ -4,7 +4,7 @@
   "status": "live",
   "website": "https://airchains.io/",
   "network_type": "testnet",
-  "pretty_name": "Airchains Switchyard Testnet",
+  "pretty_name": "Airchains",
   "chain_id": "junction",
   "bech32_prefix": "air",
   "daemon_name": "junctiond",
