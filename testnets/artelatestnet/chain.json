@@ -31,9 +31,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/artela-network/artela",
-    "recommended_version": "v0.4.7-rc7",
+    "recommended_version": "v0.4.7-rc7-fix-execution",
     "compatible_versions": [
-      "v0.4.7-rc7"
+      "v0.4.7-rc7-fix-execution"
     ],
     "cosmos_sdk_version": "0.47",
     "consensus": {
@@ -102,6 +102,10 @@
   },
   "apis": {
     "rpc": [
+      {
+        "address": "https://artela-testnet.nodejumper.io",
+        "provider": "NODEJUMPER"
+      },
       {
         "address": "https://testnet-rpc1.artela.network",
         "provider": "Artela Foundation"
