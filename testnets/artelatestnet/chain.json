@@ -103,8 +103,12 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://artela-testnet.nodejumper.io",
+        "address": "https://artela-testnet.nodejumper.io:443",
         "provider": "NODEJUMPER"
+      },
+      {
+        "address": "https://artela-testnet-rpc.contributiondao.com:443",
+        "provider": "ContributionDAO"
       },
       {
         "address": "https://testnet-rpc1.artela.network",
