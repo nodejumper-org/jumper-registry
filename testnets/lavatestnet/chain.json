@@ -238,10 +238,6 @@
         "provider": "bccnodes"
       },
       {
-        "address": "http://lava.rpc.t.stavr.tech:198",
-        "provider": "🔥STAVR🔥"
-      },
-      {
         "address": "https://lava-testnet-rpc.itrocket.net:443",
         "provider": "🚀ITRocket🚀"
       },
