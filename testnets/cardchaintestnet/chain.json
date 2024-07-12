@@ -24,7 +24,7 @@
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
     "recommended_version": "v0.16.0",
     "genesis": {
-      "genesis_url": "http://45.136.28.158:3000/genesis.json"
+      "genesis_url": "https://cardchain.crowdcontrol.network/files/genesis.json"
     }
   },
   "peers": {
