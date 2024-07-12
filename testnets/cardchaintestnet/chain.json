@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "cardtestnet-11",
+  "chain_id": "cardtestnet-12",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
@@ -30,12 +30,8 @@
   "peers": {
     "seeds": [
       {
-        "id": "2aa407243c982ce2d9ee607b15418cf45b5002f7",
-        "address": "202.61.225.157:20056"
-      },
-      {
-        "id": "947aa14a9e6722df948d46b9e3ff24dd72920257",
-        "address": "cardchain-testnet-seed.itrocket.net:31656"
+        "id": "86fe149f801ac75213179be5b56fbd1a1e545c43",
+        "address": "202.61.225.157:20656"
       }
     ],
     "persistent_peers": [
