@@ -250,7 +250,7 @@
         "provider": "itrocket.net"
       },
       {
-        "address": " https://terp.grpc.nodex.one:443",
+        "address": "https://terp.grpc.nodex.one:443",
         "provider": "nodex.one"
       }
     ]
