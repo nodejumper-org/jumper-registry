@@ -2,6 +2,7 @@
   "$schema": "../../chain.schema.json",
   "chain_name": "okp4testnet",
   "chain_id": "okp4-drunemeton-1",
+  "chain_type": "cosmos",
   "website": "https://axone.xyz",
   "pretty_name": "Axone Protocol",
   "status": "live",
@@ -108,3 +109,4 @@
     }
   ]
 }
+

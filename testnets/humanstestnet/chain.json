@@ -2,7 +2,7 @@
   "$schema": "../../chain.schema.json",
   "chain_name": "humanstestnet",
   "chain_id": "humans_3000-31",
-  "pretty_name": "Humans AI Testnet",
+  "pretty_name": "Humans AI",
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "humans",
@@ -101,3 +101,4 @@
     }
   ]
 }
+

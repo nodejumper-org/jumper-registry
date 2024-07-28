@@ -3,6 +3,7 @@
   "chain_name": "entrypointtestnet",
   "status": "live",
   "network_type": "testnet",
+  "chain_type": "cosmos",
   "pretty_name": "EntryPoint",
   "chain_id": "entrypoint-pubtest-2",
   "bech32_prefix": "entrypoint",
@@ -162,3 +163,4 @@
     }
   ]
 }
+

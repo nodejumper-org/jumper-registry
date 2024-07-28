@@ -2,6 +2,7 @@
   "$schema": "../../chain.schema.json",
   "chain_name": "jackaltestnet",
   "chain_id": "lupulella-2",
+  "chain_type": "cosmos",
   "website": "https://jackalprotocol.com",
   "pretty_name": "Jackal",
   "status": "live",
