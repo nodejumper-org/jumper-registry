@@ -48,8 +48,8 @@
   },
   "codebase": {
     "git_repo": "https://github.com/elys-network/elys",
-    "recommended_version": "v0.39.0",
-    "compatible_versions": ["v0.39.0"],
+    "recommended_version": "v0.40.0",
+    "compatible_versions": ["v0.40.0"],
     "cosmos_sdk_version": "v0.47",
     "consensus": {
       "type": "cometbft",
