@@ -3,6 +3,7 @@
   "chain_name": "wardenprotocoltestnet",
   "status": "live",
   "network_type": "testnet",
+  "chain_type": "cosmos",
   "pretty_name": "Warden Protocol",
   "chain_id": "buenavista-1",
   "bech32_prefix": "warden",
@@ -32,9 +33,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/warden-protocol/wardenprotocol",
-    "recommended_version": "v0.3.2",
+    "recommended_version": "v0.4.1",
     "compatible_versions": [
-      "v0.3.2"
+      "v0.4.1"
     ],
     "cosmos_sdk_version": "v0.50.3",
     "consensus": {
