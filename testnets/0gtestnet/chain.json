@@ -4,6 +4,7 @@
   "status": "live",
   "website": "https://0g.ai",
   "network_type": "testnet",
+  "chain_type": "cosmos",
   "pretty_name": "0G",
   "chain_id": "zgtendermint_16600-2",
   "bech32_prefix": "evmos",
