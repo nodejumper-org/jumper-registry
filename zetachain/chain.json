@@ -35,9 +35,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
-    "recommended_version": "v18.0.0",
+    "recommended_version": "v19.0.0",
     "compatible_versions": [
-      "v18.0.0"
+      "v19.0.0"
     ],
     "cosmos_sdk_version": "v0.46.13",
     "consensus": {
