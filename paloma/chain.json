@@ -32,9 +32,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/palomachain/paloma",
-    "recommended_version": "v2.0.0",
+    "recommended_version": "v2.0.1",
     "compatible_versions": [
-      "v2.0.0"
+      "v2.0.1"
     ],
     "cosmos_sdk_version": "v0.50.6",
     "consensus": {
