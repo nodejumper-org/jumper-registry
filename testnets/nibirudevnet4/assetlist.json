@@ -17,6 +17,10 @@
         {
           "denom": "nibi",
           "exponent": 6
+        },
+        {
+          "denom": "attonibi",
+          "exponent": 18
         }
       ],
       "base": "unibi",
@@ -90,7 +94,9 @@
         {
           "denom": "eth",
           "exponent": 18,
-          "aliases": ["ether"]
+          "aliases": [
+            "ether"
+          ]
         }
       ],
       "base": "wei",
