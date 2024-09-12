@@ -30,13 +30,17 @@
   },
   "codebase": {
     "git_repo": "https://github.com/arkeonetwork/arkeo",
-    "recommended_version": "ab05b124336ace257baa2cac07f7d1bfeed9ac02"
+    "recommended_version": "5c547a39c5454f3487adf14fd4613fdc9a4e97a5"
   },
   "peers": {
     "seeds": [
       {
-        "id": "20e1000e88125698264454a884812746c2eb4807",
-        "address": "seeds.lavenderfive.com:22856"
+        "id": "aab68f68841eb072d996cd1b45c2b9c9b612d95b",
+        "address": "seed.innovationtheory.com:26656"
+      },
+      {
+        "id": "85341b428cf5993fcc04a324d95d14590ae5172c",
+        "address": "seed2.innovationtheory.com:26656"
       }
     ]
   },
