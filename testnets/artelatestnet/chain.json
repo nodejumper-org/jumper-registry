@@ -32,9 +32,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/artela-network/artela",
-    "recommended_version": "v0.4.7-rc7-fix-execution",
+    "recommended_version": "v0.4.9-rc9",
     "compatible_versions": [
-      "v0.4.7-rc7-fix-execution"
+      "v0.4.9-rc9"
     ],
     "cosmos_sdk_version": "0.47",
     "consensus": {
