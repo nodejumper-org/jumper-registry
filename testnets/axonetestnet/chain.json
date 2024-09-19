@@ -1,0 +1,82 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "axonetestnet",
+  "chain_id": "axone-dentrite-1",
+  "chain_type": "cosmos",
+  "website": "https://axone.xyz",
+  "pretty_name": "Axone",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "axone",
+  "daemon_name": "axoned",
+  "node_home": "$HOME/.axoned",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uaxone",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uaxone"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/axone-protocol/axoned",
+    "recommended_version": "v10.0.0",
+    "compatible_versions": [
+      "v10.0.0"
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/axone-protocol/networks/main/chains/dentrite-1/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "axone-testnet.rpc.kjnodes.com:13659"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://axone-testnet.rpc.kjnodes.com:443",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://axone-testnet-rpc.polkachu.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://axone-testnet.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://axone-testnet-api.polkachu.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "axone-testnet.grpc.kjnodes.com:443",
+        "provider": "kjnodes"
+      }
+    ]
+  },
+  "explorers": [
+  ]
+}
+
