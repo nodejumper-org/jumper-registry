@@ -57,42 +57,27 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.0g.crptmax.com:443"
+        "address": "https://og-testnet-rpc.itrocket.net:443"
       },
       {
-        "address": "https://og-testnet-rpc.blockhub.id:443"
+        "address": "https://og-t-rpc.noders.services:443"
       },
       {
-        "address": "https://rpc-t-0g.anatolianteam.com:443"
+        "address": "http://65.21.46.201:26657"
       },
       {
-        "address": "https://rpc.0g.idekubagus.com:443"
+        "address": "http://65.21.46.201:26657"
       },
       {
-        "address": "https://rpc-0g.sebatian.org:443"
+        "address": "http://211.218.55.32:40657"
       },
       {
-        "address": "https://rpc.0gchain.dz-staking.com:443"
+        "address": "http://95.216.76.249:26657"
       }
     ],
     "rest": [
       {
-        "address": "https://api.0g.crptmax.com:443"
-      },
-      {
-        "address": "https://og-testnet-api.blockhub.id:443"
-      },
-      {
-        "address": "https://api-t-0g.anatolianteam.com:443"
-      },
-      {
-        "address": "https://api.0g.idekubagus.com:443"
-      },
-      {
-        "address": "https://api-0g.sebatian.org:443"
-      },
-      {
-        "address": "https://api.0gchain.dz-staking.com:443"
+        "address": "https://og-testnet-api.itrocket.net"
       }
     ],
     "grpc": []
