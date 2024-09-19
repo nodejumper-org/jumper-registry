@@ -128,69 +128,28 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://artela-testnet.nodejumper.io:443",
-        "provider": "NODEJUMPER"
-      },
-      {
         "address": "https://artela-testnet-rpc.contributiondao.com:443",
         "provider": "ContributionDAO"
       },
       {
-        "address": "https://testnet-rpc1.artela.network",
-        "provider": "Artela Foundation"
+        "address": "https://artela-testnet-rpc.itrocket.net:443",
+        "provider": "itrocket"
       },
       {
-        "address": "https://testnet-rpc2.artela.network",
-        "provider": "Artela Foundation"
-      },
-      {
-        "address": "https://artela.rpc.liveraven.net:443",
-        "provider": "liveraven"
-      },
-      {
-        "address": "https://artelarpc1.cryptosj.net:443",
-        "provider": "cryptosj"
-      },
-      {
-        "address": "https://artela.rpc.blackowl.tech:443",
-        "provider": "blackowl"
-      },
-      {
-        "address": "https://rpc-testnet-artela.nodeist.net",
-        "provider": "nodeist"
-      },
-      {
-        "address": "https://rpc-t.artela.nodestake.org",
-        "provider": "nodestake"
-      },
-      {
-        "address": "https://artela-testnet.rpc.nodex.one",
+        "address": "https://artela-testnet.rpc.nodex.one:443",
         "provider": "nodex"
+      },
+      {
+        "address": "https://artela-testnet-rpc.polkachu.com:443"
       }
     ],
     "rest": [
       {
-        "address": "https://artela-testnet.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
-      },
-      {
-        "address": "https://artela-testnet.api.nodex.one",
-        "provider": "nodex"
+        "address": "https://artela-testnet-api.itrocket.net",
+        "provider": "itrocket"
       }
     ],
     "grpc": [
-      {
-        "address": "https://testnet-rpc1.artela.network",
-        "provider": "Artela Foundation"
-      },
-      {
-        "address": "https://api-testnet-artela.nodeist.net",
-        "provider": "nodeist"
-      },
-      {
-        "address": "https://api-t.artela.nodestake.org",
-        "provider": "nodestake"
-      },
       {
         "address": "https://artela-testnet.api.nodex.one",
         "provider": "nodex"
