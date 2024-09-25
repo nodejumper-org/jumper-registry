@@ -23,11 +23,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/BitCannaGlobal/bcna",
-    "recommended_version": "v3.1.0",
+    "recommended_version": "v4.0.0-rc5",
     "compatible_versions": [
-      "v2.0.1-rc6",
-      "v2.0.2-rc1",
-      "v2.0.3"
+      "v4.0.0-rc5"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.3/bcna_linux_amd64.tar.gz"
