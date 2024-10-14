@@ -5,7 +5,7 @@
   "network_type": "testnet",
   "pretty_name": "Arkeo Network",
   "chain_type": "cosmos",
-  "chain_id": "arkeo",
+  "chain_id": "arkeo-testnet-3",
   "bech32_prefix": "tarkeo",
   "daemon_name": "arkeod",
   "node_home": "$HOME/.arkeo",
@@ -35,12 +35,12 @@
   "peers": {
     "seeds": [
       {
-        "id": "aab68f68841eb072d996cd1b45c2b9c9b612d95b",
-        "address": "seed.innovationtheory.com:26656"
+        "id": "9dfa5f2d19c1174baf5e597965394269e654f9b7",
+        "address": "seed31.innovationtheory.com:26656"
       },
       {
-        "id": "85341b428cf5993fcc04a324d95d14590ae5172c",
-        "address": "seed2.innovationtheory.com:26656"
+        "id": "bb761c984bd990f3055f412917396754cd22af7a",
+        "address": "validator31.innovationtheory.com:26656"
       }
     ]
   },
