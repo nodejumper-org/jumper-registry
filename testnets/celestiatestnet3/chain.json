@@ -3,7 +3,7 @@
   "chain_name": "celestiatestnet3",
   "chain_type": "cosmos",
   "chain_id": "mocha-4",
-  "pretty_name": "Mocha Testnet",
+  "pretty_name": "Celestia",
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "celestia",
