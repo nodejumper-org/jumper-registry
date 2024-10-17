@@ -34,13 +34,8 @@
   },
   "codebase": {
     "git_repo": "https://github.com/JackalLabs/canine-chain",
-    "recommended_version": "v4.0.3",
-    "compatible_versions": [
-      "v4.0.0",
-      "v4.0.1",
-      "v4.0.2",
-      "v4.0.3"
-    ],
+    "recommended_version": "v4.1.1",
+    "compatible_versions": [],
     "binaries": {
       "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.3/canined-Linux",
       "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.3/canined-macOS"
