@@ -1,0 +1,20 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "storytestnet",
+  "assets": [
+    {
+      "description": "The native staking token of Story Testnet.",
+      "denom_units": [
+        {
+          "denom": "ip",
+          "exponent": 0
+        }
+      ],
+      "base": "ip",
+      "name": "IP",
+      "display": "IP",
+      "symbol": "IP",
+      "type_asset": "sdk.coin"
+    }
+  ]
+}

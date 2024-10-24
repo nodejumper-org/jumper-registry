@@ -1,0 +1,84 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "storytestnet",
+  "status": "live",
+  "website": "https://www.story.foundation",
+  "network_type": "testnet",
+  "pretty_name": "Story",
+  "chain_type": "cosmos",
+  "chain_id": "iliad-0",
+  "bech32_prefix": "story",
+  "daemon_name": "story",
+  "node_home": "$HOME/.story/story",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ip",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.00025,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ip"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/piplabs/story.git",
+    "recommended_version": "v0.11.0",
+    "cosmos_sdk_version": "0.50.3",
+    "genesis": {
+      "genesis_url": "https://github.com/airchains-network/junction/releases/download/v0.1.0/genesis.json"
+    },
+    "versions": [
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.3"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "story-testnet.rpc.kjnodes.com:26659"
+      },
+      {
+        "id": "51ff395354c13fab493a03268249a74860b5f9cc@",
+        "address": "story-testnet-seed.itrocket.net:26656"
+      }
+    ],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://story-testnet.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://story-testnet-rpc.itrocket.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://story-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://story-testnet.api.kjnodes.com"
+      }
+    ],
+    "grpc": [
+    ]
+  },
+  "explorers": [
+  ]
+}
