@@ -6,15 +6,15 @@
       "description": "The native token of Warden Protocol Testnet",
       "denom_units": [
         {
-          "denom": "uward",
+          "denom": "award",
           "exponent": 0
         },
         {
           "denom": "ward",
-          "exponent": 6
+          "exponent": 18
         }
       ],
-      "base": "uward",
+      "base": "award",
       "name": "Ward",
       "display": "ward",
       "symbol": "WARD",

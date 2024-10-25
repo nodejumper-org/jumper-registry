@@ -4,23 +4,23 @@
   "status": "live",
   "network_type": "testnet",
   "chain_type": "cosmos",
-  "pretty_name": "Warden Protocol",
-  "chain_id": "buenavista-1",
+  "pretty_name": "Warden",
+  "chain_id": "chiado_10010-1",
   "bech32_prefix": "warden",
   "daemon_name": "wardend",
   "node_home": "$HOME/.warden",
   "key_algos": [
-    "secp256k1"
+    "ethsecp256k1"
   ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
       {
-        "denom": "uward",
-        "fixed_min_gas_price": 0.005,
-        "low_gas_price": 0.01,
-        "average_gas_price": 0.025,
-        "high_gas_price": 0.03
+        "denom": "award",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 1,
+        "average_gas_price": 2,
+        "high_gas_price": 3
       }
     ]
   },
@@ -33,10 +33,8 @@
   },
   "codebase": {
     "git_repo": "https://github.com/warden-protocol/wardenprotocol",
-    "recommended_version": "v0.4.2",
-    "compatible_versions": [
-      "v0.4.2"
-    ],
+    "recommended_version": "v0.5.2",
+    "compatible_versions": [],
     "cosmos_sdk_version": "v0.50.3",
     "consensus": {
       "type": "cometbft",
@@ -44,7 +42,7 @@
     },
     "cosmwasm_enabled": false,
     "genesis": {
-      "genesis_url": "https://raw.githubusercontent.com/warden-protocol/networks/main/testnets/buenavista/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/warden-protocol/networks/refs/heads/main/testnets/chiado/genesis.json"
     },
     "versions": [
       {
@@ -77,21 +75,22 @@
     }
   },
   "peers": {
-    "seeds": [],
+    "seeds": [
+      {
+        "id": "2d2c7af1c2d28408f437aef3d034087f40b85401",
+        "address": "52.51.132.79:26656",
+        "provider": "Warden Protocol"
+      }
+    ],
     "persistent_peers": [
       {
-        "id": "ddb4d92ab6eba8363bab2f3a0d7fa7a970ae437f",
-        "address": "sentry-1.buenavista.wardenprotocol.org:26656",
+        "id": "2d2c7af1c2d28408f437aef3d034087f40b85401",
+        "address": "52.51.132.79:26656",
         "provider": "Warden Protocol"
       },
       {
-        "id": "c717995fd56dcf0056ed835e489788af4ffd8fe8",
-        "address": "sentry-2.buenavista.wardenprotocol.org:26656",
-        "provider": "Warden Protocol"
-      },
-      {
-        "id": "e1c61de5d437f35a715ac94b88ec62c482edc166",
-        "address": "sentry-3.buenavista.wardenprotocol.org:26656",
+        "id": "5461e7642520a1f8427ffaa57f9d39cf345fcd47",
+        "address": "54.72.190.0:26656",
         "provider": "Warden Protocol"
       }
     ]
@@ -99,7 +98,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.buenavista.wardenprotocol.org:443",
+        "address": "https://rpc.chiado.wardenprotocol.org:443",
         "provider": "Warden Protocol"
       },
       {
@@ -109,11 +108,14 @@
       {
         "address": "https://warden.rpc.t.stavr.tech:443",
         "provider": "stavr"
+      },
+      {
+        "address": "https://warden-testnet.rpc.kjnodes.com:443",
       }
     ],
     "rest": [
       {
-        "address": "https://api.buenavista.wardenprotocol.org/",
+        "address": "https://api.chiado.wardenprotocol.org/",
         "provider": "Warden Protocol"
       },
       {
@@ -127,7 +129,7 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.buenavista.wardenprotocol.org/",
+        "address": "https://grpc.chiado.wardenprotocol.org/",
         "provider": "Warden Protocol"
       }
     ]
