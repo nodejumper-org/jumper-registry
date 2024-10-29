@@ -40,7 +40,6 @@
       "type": "cometbft",
       "version": "0.38"
     },
-    "cosmwasm_enabled": false,
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/warden-protocol/networks/refs/heads/main/testnets/chiado/genesis.json"
     },
@@ -56,7 +55,6 @@
           "type": "cometbft",
           "version": "0.38"
         },
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "0.50"

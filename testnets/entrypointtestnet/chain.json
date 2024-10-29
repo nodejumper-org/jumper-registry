@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "entrypointtestnet",
-  "status": "live",
+  "status": "killed",
   "network_type": "testnet",
   "chain_type": "cosmos",
   "pretty_name": "EntryPoint",
@@ -175,4 +175,3 @@
     }
   ]
 }
-
