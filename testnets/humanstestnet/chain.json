@@ -74,6 +74,10 @@
       {
         "address": "https://rpc-1.humans.nodes.guru",
         "provider": "nodesguru"
+      },
+      {
+        "address": "https://humans-testnet-rpc.cosmonautstakes.com",
+        "provider": "Cosmonaut Stakes 🤖"
       }
     ],
     "rest": [
@@ -88,9 +92,23 @@
       {
         "address": "https://api-1.humans.nodes.guru",
         "provider": "nodesguru"
+      },
+      {
+        "address": "https://humans-testnet-rest.cosmonautstakes.com",
+        "provider": "Cosmonaut Stakes 🤖"
       }
     ],
     "grpc": [
+      {
+        "address": "humans-testnet-grpc.cosmonautstakes.com:9090",
+        "provider": "Cosmonaut Stakes 🤖"
+      }
+    ],
+    "evm-http-jsonrpc": [
+      {
+        "address": "humans-testnet-evm.cosmonautstakes.com",
+        "provider": "Cosmonaut Stakes 🤖"
+      }
     ]
   },
   "explorers": [
@@ -101,4 +119,3 @@
     }
   ]
 }
-
