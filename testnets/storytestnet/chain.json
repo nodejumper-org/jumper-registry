@@ -6,7 +6,7 @@
   "network_type": "testnet",
   "pretty_name": "Story",
   "chain_type": "cosmos",
-  "chain_id": "odyssey",
+  "chain_id": "odyssey-0",
   "bech32_prefix": "story",
   "daemon_name": "story",
   "node_home": "$HOME/.story/story",
