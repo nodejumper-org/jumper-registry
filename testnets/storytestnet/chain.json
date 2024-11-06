@@ -35,7 +35,7 @@
   "codebase": {
     "git_repo": "https://github.com/piplabs/story.git",
     "recommended_version": "v0.12.1",
-    "cosmos_sdk_version": "0.50.3",
+    "cosmos_sdk_version": "0.50.7",
     "genesis": {
       "genesis_url": ""
     },
