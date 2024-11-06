@@ -49,6 +49,14 @@
   "peers": {
     "seeds": [
       {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com:29256"
+      },
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "story-testnet.rpc.kjnodes.com:26659"
+      },
+      {
         "id": "434af9dae402ab9f1c8a8fc15eae2d68b5be3387@",
         "address": "story-testnet-seed.itrocket.net:29656"
       }
@@ -57,6 +65,12 @@
   },
   "apis": {
     "rpc": [
+      {
+        "address": "https://story.rpc.noders.services"
+      },
+      {
+        "address": "https://story-testnet-rpc.polkachu.com"
+      },
       {
         "address": "https://story-testnet.rpc.kjnodes.com"
       },
