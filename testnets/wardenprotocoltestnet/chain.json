@@ -107,7 +107,7 @@
         "provider": "stavr"
       },
       {
-        "address": "https://warden-testnet.rpc.kjnodes.com:443",
+        "address": "https://warden-testnet.rpc.kjnodes.com:443"
       }
     ],
     "rest": [
