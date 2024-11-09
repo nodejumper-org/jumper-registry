@@ -35,7 +35,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
-    "recommended_version": "v20.0.0",
+    "recommended_version": "v20.0.2",
     "compatible_versions": [
       "v20.0.0"
     ],
