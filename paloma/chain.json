@@ -32,9 +32,8 @@
   },
   "codebase": {
     "git_repo": "https://github.com/palomachain/paloma",
-    "recommended_version": "v2.3.1",
+    "recommended_version": "v2.4.0",
     "compatible_versions": [
-      "v2.3.1"
     ],
     "consensus": {
       "type": "cometbft",
