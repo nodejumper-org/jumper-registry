@@ -35,9 +35,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
-    "recommended_version": "v20.0.2",
+    "recommended_version": "v24.0.0",
     "compatible_versions": [
-      "v20.0.0"
+      "v24.0.0"
     ],
     "consensus": {
       "type": "cometbft",
