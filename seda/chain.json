@@ -34,9 +34,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/sedaprotocol/seda-chain",
-    "recommended_version": "v0.1.1",
+    "recommended_version": "v0.1.6",
     "compatible_versions": [
-      "v0.1.1"
+      "v0.1.6"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/sedaprotocol/seda-chain/releases/download/v0.1.1/sedad-amd64",
