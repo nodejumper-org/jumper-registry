@@ -139,18 +139,18 @@
       "display": "usdy",
       "symbol": "USDY",
       "traces": [
-          {
-              "type": "ibc",
-              "counterparty": {
-                  "chain_name": "nobletestnet",
-                  "base_denom": "ausdy",
-                  "channel_id": "channel-237"
-              },
-                  "chain": {
-                  "channel_id": "channel-2",
-                  "path": "transfer/channel-2/ausdy"
-              }
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "nobletestnet",
+            "base_denom": "ausdy",
+            "channel_id": "channel-237"
+          },
+          "chain": {
+            "channel_id": "channel-2",
+            "path": "transfer/channel-2/ausdy"
           }
+        }
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png",
