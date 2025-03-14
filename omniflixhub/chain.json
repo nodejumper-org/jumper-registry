@@ -13,9 +13,8 @@
   "slip44": 118,
   "codebase": {
     "git_repo": "https://github.com/OmniFlix/omniflixhub",
-    "recommended_version": "v4.1.1",
+    "recommended_version": "v5.2.0",
     "compatible_versions": [
-      "v4.1.1"
     ],
     "consensus": {
       "type": "cometbft",
