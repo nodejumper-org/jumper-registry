@@ -36,7 +36,6 @@
   "codebase": {
     "git_repo": "https://github.com/zeta-chain/node",
     "recommended_version": "v22.0.0",
-    "cosmos_sdk_version": "0.46",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
@@ -109,6 +108,10 @@
       {
         "address": "http://141.94.214.137:26657",
         "provider": "RockX"
+      },
+      {
+        "address": "https://zetachain-testnet-tendermint.reliableninjas.com",
+        "provider": "Reliable Ninjas"
       }
     ],
     "rest": [
@@ -145,6 +148,10 @@
       {
         "address": "zetachain-testnet.grpc.kjnodes.com:16190",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://zetachain-testnet-cosmos.reliableninjas.com",
+        "provider": "Reliable Ninjas"
       }
     ]
   },
