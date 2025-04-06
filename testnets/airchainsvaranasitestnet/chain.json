@@ -4,7 +4,7 @@
   "status": "live",
   "website": "https://airchains.io/",
   "network_type": "testnet",
-  "pretty_name": "Airchains Varanasi Testnet",
+  "pretty_name": "Airchains",
   "chain_type": "cosmos",
   "chain_id": "varanasi-1",
   "bech32_prefix": "air",
