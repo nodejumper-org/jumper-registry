@@ -205,8 +205,16 @@
         "provider": "ecostake"
       },
       {
+        "address": "https://m-atomone.rpc.utsa.tech/",
+        "provider": "UTSA"
+      },
+      {
         "address": "https://rpc.atomone.roomit.xyz",
         "provider": "Roomit"
+      },
+      {
+        "address": "https://rpc.atomone.chaintools.tech",
+        "provider": "ChainTools"
       }
     ],
     "rest": [
@@ -275,9 +283,17 @@
         "provider": "ecostake"
       },
       {
+        "address": "https://m-atomone.api.utsa.tech/",
+        "provider": "UTSA"
+      },
+      {
         "address": "https://api.atomone.roomit.xyz",
         "provider": "Roomit"
-      }
+      },
+      {
+        "address": "https://api.atomone.chaintools.tech",
+        "provider": "ChainTools"
+      }      
     ],
     "grpc": [
       {
@@ -323,6 +339,10 @@
       {
         "address": "grpc.atomone.roomit.xyz:8443",
         "provider": "Roomit"
+      },
+      {
+        "address": "grpc.atomone.chaintools.tech:443",
+        "provider": "ChainTools"
       }
     ]
   },
@@ -374,7 +394,19 @@
       "url": "https://explorer.tendermint.roomit.xyz/atomone-mainnet",
       "tx_page": "https://explorer.tendermint.roomit.xyz/atomone-mainnet/tx/${txHash}",
       "account_page": "https://explorer.tendermint.roomit.xyz/atomone-mainnet/account/${accountAddress}"
-    }
+    },
+    {
+      "kind": "ChainTools",
+      "url": "https://explorer.chaintools.tech/atomone",
+      "tx_page": "https://explorer.chaintools.tech/atomone/tx/${txHash}",
+      "account_page": "https://explorer.chaintools.tech/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "Valopers",
+      "url": "https://atomone.valopers.com/",
+      "tx_page": "https://atomone.valopers.com/transactions/${txHash}",
+      "account_page": "https://atomone.valopers.com/account/${accountAddress}"
+    }    
   ],
   "images": [
     {
