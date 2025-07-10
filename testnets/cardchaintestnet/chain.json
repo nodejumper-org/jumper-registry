@@ -1,7 +1,8 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "cardchaintestnet",
-  "chain_id": "cardtestnet-13",
+  "chain_id": "cardtestnet-14",
+  "chain_type": "cosmos",
   "pretty_name": "CrowdControl",
   "status": "live",
   "network_type": "testnet",
@@ -22,7 +23,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/DecentralCardGame/Cardchain",
-    "recommended_version": "v0.17.0",
+    "recommended_version": "v0.18.0",
     "genesis": {
       "genesis_url": "https://cardchain.crowdcontrol.network/files/genesis.json"
     }
