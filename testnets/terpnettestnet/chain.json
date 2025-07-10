@@ -61,10 +61,6 @@
       {
         "id": "15f5bc75be9746fd1f712ca046502cae8a0f6ce7",
         "address": "terp-testnet.nodejumper.io:30656"
-      },
-      {
-        "id": "51d48be3809bb8907c1ef5f747e53cdd0c9ded1b",
-        "address": "terp-testnet-peer.itrocket.net:443"
       }
     ]
   },
@@ -73,53 +69,15 @@
       {
         "address": "https://testnet-rpc.terp.network:443/",
         "provider": "Terpnet Foundation"
-      },
-      {
-        "address": "https://terp-testnet-rpc.itrocket.net:443/",
-        "provider": "itrocket"
-      },
-      {
-        "address": "https://rpc-terp.zenchainlabs.io/"
-      },
-      {
-        "address": "https://terp-testnet.rpc.kjnodes.com:443/"
-      },
-      {
-        "address": "https://rpc-t.terp.nodestake.top:443/"
-      },
-      {
-        "address": "https://rpc.terp.nodexcapital.com:443/"
-      },
-      {
-        "address": "https://terp-testnet-rpc.itrocket.net:443/"
       }
     ],
     "rest": [
       {
         "address": "https://testnet-api.terp.network:443/",
         "provider": "Terpnet Foundation"
-      },
-      {
-        "address": "https://terp-testnet-api.itrocket.net:443/",
-        "provider": "itrocket"
-      },
-      {
-        "address": "https://api-terp.zenchainlabs.io/",
-        "provider": "Zenchainlabs"
-      },
-      {
-        "address": "https://api.terp-test.theamsolutions.info:443/"
-      },
-      {
-        "address": "https://terp-testnet-api.itrocket.net:443/"
       }
     ],
-    "grpc": [
-      {
-        "address": "terp-testnet-grpc.itrocket.net/",
-        "provider": "itrocket"
-      }
-    ]
+    "grpc": []
   },
   "explorers": [
     {
