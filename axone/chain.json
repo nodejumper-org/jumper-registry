@@ -67,6 +67,21 @@
       },
       {
         "address": "https://rpc-axone.winsnip.site"
+      },
+      {
+        "address": "https://axone-rpc.node39.top:443"
+      },
+      {
+        "address": "https://rpc-axone-mainnet.onenov.xyz"
+      },
+      {
+        "address": "https://axone-rpc.nodesync.top"
+      },
+      {
+        "address": "https://rpc.axone.indonode.net"
+      },
+      {
+        "address": "https://rpc.axone.cumulo.com.es"
       }
     ],
     "rest": [
