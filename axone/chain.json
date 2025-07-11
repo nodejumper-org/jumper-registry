@@ -1,0 +1,91 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "axone",
+  "chain_id": "axone-1",
+  "chain_type": "cosmos",
+  "website": "https://axone.xyz",
+  "pretty_name": "Axone",
+  "status": "live",
+  "network_type": "mainnet",
+  "bech32_prefix": "axone",
+  "daemon_name": "axoned",
+  "node_home": "$HOME/.axoned",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uaxone",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uaxone"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/axone-protocol/axoned",
+    "recommended_version": "v12.0.0",
+    "compatible_versions": [
+      "v12.0.0"
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/axone-protocol/networks/refs/heads/main/chains/1/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "3f472746f46493309650e5a033076689996c8881",
+        "address": "axone-testnet.rpc.kjnodes.com:13659"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://axone-rpc.noders.services",
+        "provider": "noders"
+      },
+      {
+        "address": "https://rpc-axone-mainnet.maouam.xyz"
+      },
+      {
+        "address": "https://rpc-axone-mainnet.maouam.xyz"
+      },
+      {
+        "address": "https://rpc-axone.provewithryd.xyz"
+      },
+      {
+        "address": "https://rpc-axone.winsnip.site"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://axone-api.noders.services",
+        "provider": "noders"
+      },
+      {
+        "address": "https://axone-testnet-api.polkachu.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://axone-grpc.noders.services",
+        "provider": "noders"
+      }
+    ]
+  },
+  "explorers": [
+  ]
+}
+
