@@ -41,7 +41,7 @@
     }
   },
   "peers": {
-    "seeds": [ ]
+    "seeds": []
   },
   "apis": {
     "rpc": [

@@ -40,10 +40,7 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
-      "theme": {
-        "primary_color_hex": "#f4e4d4"
-      }
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg"
     }
   ],
   "codebase": {
@@ -227,7 +224,7 @@
         "provider": "Enigma"
       },
       {
-        "address": "https://dymension-rpc.ibs.team",
+        "address": "https://dymension.ibs.team:443/rpc",
         "provider": "Inter Blockchain Services"
       },
       {
@@ -353,7 +350,7 @@
         "provider": "Enigma"
       },
       {
-        "address": "https://dymension-api.ibs.team",
+        "address": "https://dymension.ibs.team:443/api",
         "provider": "Inter Blockchain Services"
       },
       {
@@ -497,7 +494,7 @@
         "provider": "AgoraNodes"
       },
       {
-        "address": "https://dymension-jsonrpc.ibs.team",
+        "address": "https://dymension.ibs.team:443/ethrpc/",
         "provider": "Inter Blockchain Services"
       },
       {
@@ -531,12 +528,6 @@
     ]
   },
   "explorers": [
-    {
-      "kind": "Chainroot",
-      "url": "https://explorer.chainroot.io/dymension",
-      "tx_page": "https://explorer.chainroot.io/dymension/transactions/${txHash}",
-      "account_page": "https://explorer.chainroot.io/dymension/accounts/${accountAddress}"
-    },
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/dymension",
@@ -614,6 +605,12 @@
       "url": "https://dymension.valopers.com/",
       "tx_page": "https://dymension.valopers.com/transactions/${txHash}",
       "account_page": "https://dymension.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/dymension/overview",
+      "validator_page": "https://validatorinfo.com/networks/dymension/validators",
+      "proposal_page": "https://validatorinfo.com/networks/dymension/governance"
     }
   ]
 }
