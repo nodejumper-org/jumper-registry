@@ -11,9 +11,7 @@
   "slip44": 7777777,
   "daemon_name": "firmachaind",
   "node_home": "$HOME/.firmachain",
-  "key_algos": [
-    "secp256k1"
-  ],
+  "key_algos": ["secp256k1"],
   "fees": {
     "fee_tokens": [
       {
@@ -101,6 +99,10 @@
         "provider": "FirmaChain"
       },
       {
+        "address": "https://firmachain.nodejumper.io:443",
+        "provider": "NODEJUMPER"
+      },
+      {
         "address": "https://firma.rpc.m.stavr.tech:443",
         "provider": "🔥STAVR🔥"
       },
@@ -131,6 +133,10 @@
         "provider": "FirmaChain"
       },
       {
+        "address": "https://firmachain.nodejumper.io:1317",
+        "provider": "NODEJUMPER"
+      },
+      {
         "address": "https://firma.api.m.stavr.tech",
         "provider": "🔥STAVR🔥"
       },
@@ -159,6 +165,10 @@
       {
         "address": "firmachain.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "firmachain.nodejumper.io:9090",
+        "provider": "NODEJUMPER"
       },
       {
         "address": "firma.grpc.m.stavr.tech:2030",
