@@ -23,6 +23,16 @@
       "binaries": {
         "linux/amd64": "https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.3/bcna_linux_amd64.tar.gz"
       }
+    },
+    {
+      "name": "v4.0.0-rc5",
+      "recommended_version": "v4.0.0-rc5",
+      "compatible_versions": [
+        "v4.0.0-rc5"
+      ],
+      "binaries": {
+        "linux/amd64": "https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.3/bcna_linux_amd64.tar.gz"
+      }
     }
   ]
 }

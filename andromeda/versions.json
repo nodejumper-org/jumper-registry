@@ -53,6 +53,30 @@
         "type": "go",
         "version": "v7.4.0"
       }
+    },
+    {
+      "name": "v2.0.0",
+      "recommended_version": "v2.0.0",
+      "compatible_versions": [
+        "v2.0.0"
+      ],
+      "tag": "v0.1.1-patch",
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.47.8"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.37.4"
+      },
+      "cosmwasm": {
+        "version": "v0.41.0",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v7.4.0"
+      }
     }
   ]
 }

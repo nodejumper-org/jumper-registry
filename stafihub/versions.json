@@ -47,6 +47,29 @@
           "ics20-1"
         ]
       }
+    },
+    {
+      "name": "v0.5.1",
+      "recommended_version": "v0.5.1",
+      "compatible_versions": [
+        "v0.5.1"
+      ],
+      "tag": "v0.5.0",
+      "sdk": {
+        "type": "cosmos",
+        "version": "0.46"
+      },
+      "consensus": {
+        "type": "tendermint",
+        "version": "0.34"
+      },
+      "ibc": {
+        "type": "go",
+        "version": "5.2.1",
+        "ics_enabled": [
+          "ics20-1"
+        ]
+      }
     }
   ]
 }

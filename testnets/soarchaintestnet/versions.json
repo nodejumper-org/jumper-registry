@@ -66,6 +66,30 @@
         "version": "0.27",
         "enabled": true
       }
+    },
+    {
+      "name": "v0.2.11",
+      "recommended_version": "v0.2.11",
+      "compatible_versions": [
+        "v0.2.11"
+      ],
+      "tag": "v0.2.10",
+      "sdk": {
+        "type": "cosmos",
+        "version": "0.45.5"
+      },
+      "consensus": {
+        "type": "tendermint",
+        "version": "0.34.19"
+      },
+      "cosmwasm": {
+        "version": "0.27",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "3.0.1"
+      }
     }
   ]
 }

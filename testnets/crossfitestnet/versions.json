@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../versions.schema.json",
+  "chain_name": "crossfitestnet",
+  "versions": [
+    {
+      "name": "0.3.0-prebuild9",
+      "recommended_version": "0.3.0-prebuild9",
+      "compatible_versions": [
+        "0.3.0-prebuild9"
+      ]
+    }
+  ]
+}

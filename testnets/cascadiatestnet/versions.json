@@ -4,10 +4,11 @@
   "versions": [
     {
       "name": "v0",
-      "recommended_version": "v0.1.2",
+      "recommended_version": "v0.2.0",
       "compatible_versions": [
         "v0.1.1",
-        "v0.1.2"
+        "v0.1.2",
+        "v0.2.0"
       ],
       "consensus": {
         "type": "tendermint",

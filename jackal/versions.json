@@ -148,6 +148,21 @@
       "cosmwasm": {
         "enabled": true
       }
+    },
+    {
+      "name": "v4.2.1",
+      "recommended_version": "v4.2.1",
+      "compatible_versions": [
+        "v4.2.1"
+      ],
+      "tag": "v4.0.3",
+      "binaries": {
+        "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.3/canined-Linux",
+        "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.3/canined-macOS"
+      },
+      "cosmwasm": {
+        "enabled": true
+      }
     }
   ]
 }

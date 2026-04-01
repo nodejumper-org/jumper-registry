@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../versions.schema.json",
+  "chain_name": "initiatestnet",
+  "versions": [
+    {
+      "name": "v0.2.23-stage-2",
+      "recommended_version": "v0.2.23-stage-2",
+      "compatible_versions": [
+        "v0.2.23-stage-2"
+      ]
+    }
+  ]
+}

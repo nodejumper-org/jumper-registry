@@ -1,0 +1,13 @@
+{
+  "$schema": "../../versions.schema.json",
+  "chain_name": "arkeonetworktestnet",
+  "versions": [
+    {
+      "name": "5c547a39c5454f3487adf14fd4613fdc9a4e97a5",
+      "recommended_version": "5c547a39c5454f3487adf14fd4613fdc9a4e97a5",
+      "compatible_versions": [
+        "5c547a39c5454f3487adf14fd4613fdc9a4e97a5"
+      ]
+    }
+  ]
+}

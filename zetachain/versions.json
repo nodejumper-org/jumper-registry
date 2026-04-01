@@ -192,6 +192,25 @@
         "type": "go",
         "version": "v7.4.0"
       }
+    },
+    {
+      "name": "v24.0.0",
+      "recommended_version": "v24.0.0",
+      "compatible_versions": [
+        "v24.0.0"
+      ],
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.47.10"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.37.4"
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v7.4.0"
+      }
     }
   ]
 }

@@ -228,6 +228,32 @@
         "version": "v7.2.1",
         "tag": "v7.2.1-0.20231010040541-6cf43006971f"
       }
+    },
+    {
+      "name": "v6.6.4",
+      "recommended_version": "v6.6.4",
+      "compatible_versions": [
+        "v6.6.4"
+      ],
+      "tag": "v6.5.3",
+      "sdk": {
+        "type": "cosmos",
+        "repo": "https://github.com/rust-ninja/cosmos-sdk",
+        "version": "v0.47.5",
+        "tag": "v0.47.5-patch-validators-trim-tag"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.37.2",
+        "repo": "https://github.com/composablefi/cometbft",
+        "tag": "v0.37.2-fixed-len-vote-time-tag"
+      },
+      "ibc": {
+        "type": "go",
+        "repo": "https://github.com/notional-labs/ibc-go",
+        "version": "v7.2.1",
+        "tag": "v7.2.1-0.20231010040541-6cf43006971f"
+      }
     }
   ]
 }

@@ -12,6 +12,17 @@
         "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v1.2.2-alpha.1/canined-Linux",
         "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v1.2.2-alpha.1/canined-macOS"
       }
+    },
+    {
+      "name": "v4.4.0",
+      "recommended_version": "v4.4.0",
+      "compatible_versions": [
+        "v4.4.0"
+      ],
+      "binaries": {
+        "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v1.2.2-alpha.1/canined-Linux",
+        "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v1.2.2-alpha.1/canined-macOS"
+      }
     }
   ]
 }

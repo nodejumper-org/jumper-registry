@@ -19,6 +19,24 @@
       "cosmwasm": {
         "enabled": true
       }
+    },
+    {
+      "name": "v0.5.2",
+      "recommended_version": "v0.5.2",
+      "compatible_versions": [
+        "v0.5.2"
+      ],
+      "sdk": {
+        "type": "cosmos",
+        "version": "0.50"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "0.38"
+      },
+      "cosmwasm": {
+        "enabled": false
+      }
     }
   ]
 }

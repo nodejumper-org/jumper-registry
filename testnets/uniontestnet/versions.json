@@ -1,0 +1,13 @@
+{
+  "$schema": "../../versions.schema.json",
+  "chain_name": "uniontestnet",
+  "versions": [
+    {
+      "name": "v0.23.0",
+      "recommended_version": "v0.23.0",
+      "compatible_versions": [
+        "v0.23.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../versions.schema.json",
+  "chain_name": "ojodevnet",
+  "versions": [
+    {
+      "name": "v0.1.2",
+      "recommended_version": "v0.1.2",
+      "compatible_versions": [
+        "v0.1.2"
+      ]
+    }
+  ]
+}
