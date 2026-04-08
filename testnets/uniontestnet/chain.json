@@ -34,8 +34,7 @@
   "codebase": {
     "recommended_version": "v0.23.0",
     "cosmos_sdk_version": "v0.50.x",
-    "compatible_versions": [
-    ],
+    "compatible_versions": [],
     "genesis": {
       "genesis_url": "https://union.build/genesis.json"
     }
